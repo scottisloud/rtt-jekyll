@@ -92,8 +92,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -102,10 +100,20 @@ img {
     vertical-align: middle;
 }
 
-.logo {
+img.logo {
   width: 140px;
 	height: 140px;
   padding: 20px;
+}
+
+
+img.avatar  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /**
@@ -149,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+
 a {
     color: #cc6600 !important;
     text-decoration: none;
@@ -161,7 +170,11 @@ a {
         color: black !important;
         border-bottom: 1px dotted black ;
     }
+    &.logo:hover  {
+      border-bottom: none;
+      text-decoration: none;
 
+      }
     &.page-link{
       &:hover {
           color: $text-color;
@@ -201,7 +214,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -366,6 +379,9 @@ pre {
   text-indent: 3px;
 }
 
+.postExt p, li {
+  text-align:left;
+}
 
 /**
  * Site header
