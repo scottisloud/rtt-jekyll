@@ -6,15 +6,18 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/2015/10/21/20151021federal-government-delorean-dmc-12-recalled-for-flux-capacitor-defect/
 permalink: /2015/10/21/20151021federal-government-delorean-dmc-12-recalled-for-flux-capacitor-defect/
-passthrough_url:
-  - http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php
+link: http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php
 categories:
   - Uncategorized
 ---
-<figure> 
+<!-- <figure>
 
-> <span>&#8220;</span>This could have disastrous consequences.<span>&#8221;</span> <figcaption class="source">&mdash; 
+> <span>&#8220;</span>This could have disastrous consequences.<span>&#8221;</span> <figcaption class="source">&mdash;
 
-[Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)</figcaption> </figure> 
+[Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)</figcaption> </figure> -->
+
+> This could have disastrous consequences.
+
+[– Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)
 
 On this, the day Doc and Marty arrive in the future, the Canadian federal government has a sense of humour. Don&#8217;t worry though, Doc Brown&#8217;s got a fix.&nbsp;

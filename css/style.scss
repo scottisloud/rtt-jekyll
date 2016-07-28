@@ -361,6 +361,10 @@ pre {
   letter-spacing: 3px;
   text-indent: 3px;
 }
+
+.link-arrow {
+  color: #cc6600;
+}
 /**
  * Site header
  */
@@ -574,6 +578,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
+  padding-top: 1em;
   font-size: 1.7em;
   text-align: center;
   font-family: "PT Sans";

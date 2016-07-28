@@ -6,8 +6,7 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/2014/10/30/20141030fireball-recall-in-eu/
 permalink: /2014/10/30/20141030fireball-recall-in-eu/
-passthrough_url:
-  - http://www.foodmanufacturing.com/news/2014/10/fireball-whisky-dispels-internet-rumors
+link: http://www.foodmanufacturing.com/news/2014/10/fireball-whisky-dispels-internet-rumors
 structured_content:
   - '{"oembed":{},"overlay":true}'
 categories:
