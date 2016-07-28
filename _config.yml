@@ -13,6 +13,6 @@ baseurl: "/jekyll" # the subpath of your site, e.g. /blog
 url: "http://scottlougheed.com" # the base hostname & protocol for your site
 twitter_username: scottisloud
 github_username:  scottisloud
-
+logo: /jekyll/img/logo.png
 # Build settings
 markdown: kramdown
