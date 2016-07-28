@@ -10,12 +10,6 @@ link: http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.
 categories:
   - Uncategorized
 ---
-<!-- <figure>
-
-> <span>&#8220;</span>This could have disastrous consequences.<span>&#8221;</span> <figcaption class="source">&mdash;
-
-[Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)</figcaption> </figure> -->
-
 > This could have disastrous consequences.
 
 [– Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)

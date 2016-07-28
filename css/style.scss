@@ -102,7 +102,11 @@ img {
     vertical-align: middle;
 }
 
-
+.logo {
+  width: 140px;
+	height: 140px;
+  padding: 20px;
+}
 
 /**
  * Figures
@@ -197,7 +201,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -291,7 +295,7 @@ pre {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   padding-top: 0;
 }
@@ -303,7 +307,7 @@ pre {
 }
 .authorKeyword {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-indent: 2px;
   padding-top:0.5em;
@@ -374,19 +378,19 @@ pre {
   position: relative;
 }
 .site-title {
-  font-size: 64px;
+  font-size: 44px;
   font-weight: 100;
   font-family: 'PT Sans';
   text-transform: capitalize;
   font-weight: 500;
-  margin-top: 1em;
+  // margin-top: 1em;
   &,
   &:visited {
     color: $grey-color-dark;
   }
 }
 .site-description {
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 2px;
   text-indent: 6px;
   font-family: 'Josefin Sans';
@@ -589,7 +593,7 @@ pre {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   h2 {
     font-size: 32px;
