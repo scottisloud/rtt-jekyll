@@ -221,7 +221,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 16px;
+    
     letter-spacing: -1px;
     font-style: italic;
 
@@ -315,7 +315,7 @@ pre {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   padding-top: 0;
 }
@@ -384,6 +384,8 @@ pre {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-indent: 3px;
+  font-size: 20px;
+  padding-bottom: .2em;
 }
 
 .postExt p, li {
