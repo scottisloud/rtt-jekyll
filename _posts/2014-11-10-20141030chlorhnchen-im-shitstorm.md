@@ -6,8 +6,7 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/2014/11/10/20141030chlorhnchen-im-shitstorm/
 permalink: /2014/11/10/20141030chlorhnchen-im-shitstorm/
-passthrough_url:
-  - 'http://modernfarmer.com/2014/08/chlorine-chickens/?utm_source=feedly&utm_reader=feedly&utm_medium=rss&utm_campaign=chlorine-chickens'
+link: http://modernfarmer.com/2014/08/chlorine-chickens/?utm_source=feedly&utm_reader=feedly&utm_medium=rss&utm_campaign=chlorine-chickens
 categories:
   - Uncategorized
 ---

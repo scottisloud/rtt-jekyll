@@ -16,12 +16,11 @@ tags:
   - E. coli
   - Salmonella
 ---
-The US Centre for Disease Control (CDC) recently released some preliminary data on&nbsp;_E. coli_&nbsp;and&nbsp;_Salmonella_&nbsp;in beef in the United States. As those of you who follow food safety know, the last 20 years or so (especially since 1993&#8217;s Jack-In-The-Box outbreak) have seen increased efforts to directly control pathogens and a move to mandatory use of HACCP. This &#8220;tough-on-pathogens&#8221; line of action should, ideally, reduce pathogenic contamination of food, no?<figure> 
+The US Centre for Disease Control (CDC) recently released some preliminary data on&nbsp;_E. coli_&nbsp;and&nbsp;_Salmonella_&nbsp;in beef in the United States. As those of you who follow food safety know, the last 20 years or so (especially since 1993&#8217;s Jack-In-The-Box outbreak) have seen increased efforts to directly control pathogens and a move to mandatory use of HACCP. This &#8220;tough-on-pathogens&#8221; line of action should, ideally, reduce pathogenic contamination of food, no?
 
-> <span>&#8220;</span>CDC also tracked more E. coli outbreaks from 2003-2012 than in the previous 20 years&#8230;.  
-> rates of Salmonella infection have remained steady for the past 15 years. <span>&#8221;</span> <figcaption class="source">&mdash; 
+> CDC also tracked more E. coli outbreaks from 2003-2012 than in the previous 20 years... rates of Salmonella infection have remained steady for the past 15 years.
 
-<a target="_blank" href="http://www.foodsafetynews.com/2014/10/cdc-shares-mass-of-data-on-e-coli-and-salmonella-in-beef/#.VFDh_YcbBE4">Food Safety News</a></figcaption> </figure> 
+– <a target="_blank" href="http://www.foodsafetynews.com/2014/10/cdc-shares-mass-of-data-on-e-coli-and-salmonella-in-beef/#.VFDh_YcbBE4">Food Safety News</a>
 
 Not so, according to the CDC. Rates of&nbsp;_Salmonella_&nbsp;infections have remained largely flat over two decades, while there have been more recorded&nbsp;_E. coli_&nbsp;outbreaks since 2003 than ever before. The tough-on-pathogen mentality has not led to meaningful decreases in infections.&nbsp;
 

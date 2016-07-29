@@ -9,11 +9,11 @@ permalink: /2015/09/18/2015918us-is-fixing-food-security-and-food-waste-with-a-b
 categories:
   - Uncategorized
 ---
-The United States government wants to reduce their food waste by half by 2030:<figure> 
+The United States government wants to reduce their food waste by half by 2030:
 
-> <span>&#8220;</span>the U.S. federal government will be forming a new partnership with a group of charitable and faith-based organizations, private sector organizations, and local, state and tribal governments. It’s expected that the efforts stemming from this partnership will greatly improve overall food security and help conserve the U.S.’s natural resources.<span>&#8221;</span> <figcaption class="source">&mdash; 
+> the U.S. federal government will be forming a new partnership with a group of charitable and faith-based organizations, private sector organizations, and local, state and tribal governments. It’s expected that the efforts stemming from this partnership will greatly improve overall food security and help conserve the U.S.’s natural resources.
 
- [Food In Canada](http://www.foodincanada.com/food-business/u-s-announces-first-ever-national-food-waste-reduction-goals-131975/)</figcaption> </figure> 
+ – [Food In Canada](http://www.foodincanada.com/food-business/u-s-announces-first-ever-national-food-waste-reduction-goals-131975/)
 
 These government-industry partnerships have existed before in less formal contexts, such as that between <a target="_blank" href="http://www.newfoodmagazine.com/10891/news/general-mills-joins-u-s-food-waste-challenge-as-founding-partner/">General Mills and the USDA in 2013</a>.
 

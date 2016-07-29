@@ -12,6 +12,6 @@ categories:
 ---
 > This could have disastrous consequences.
 
-[– Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)
+– [Transport Canada](http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php)
 
 On this, the day Doc and Marty arrive in the future, the Canadian federal government has a sense of humour. Don&#8217;t worry though, Doc Brown&#8217;s got a fix.&nbsp;

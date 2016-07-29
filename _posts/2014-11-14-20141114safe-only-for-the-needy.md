@@ -6,6 +6,7 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/2014/11/14/20141114safe-only-for-the-needy/
 permalink: /2014/11/14/20141114safe-only-for-the-needy/
+link: http://www.pressdemocrat.com/news/3098942-181/25000-pounds-of-frozen-turkeys
 categories:
   - Uncategorized
 ---

@@ -6,8 +6,7 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/2014/10/31/20141030top-10-most-dangerous-foods/
 permalink: /2014/10/31/20141030top-10-most-dangerous-foods/
-passthrough_url:
-  - http://feedproxy.google.com/~r/FoodPoisonBlog/~3/p1iUk4TkhB8/
+link: http://feedproxy.google.com/~r/FoodPoisonBlog/~3/p1iUk4TkhB8/
 categories:
   - Uncategorized
 ---

@@ -6,8 +6,7 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/2015/07/14/2015714barber-foods-recalls-more-salmonella-contaminated-chicken-in-canada-too/
 permalink: /2015/07/14/2015714barber-foods-recalls-more-salmonella-contaminated-chicken-in-canada-too/
-passthrough_url:
-  - http://www.inspection.gc.ca/about-the-cfia/newsroom/food-recall-warnings/complete-listing/2015-07-13/eng/1436841234604/1436841237916
+link:  http://www.inspection.gc.ca/about-the-cfia/newsroom/food-recall-warnings/complete-listing/2015-07-13/eng/1436841234604/1436841237916
 categories:
   - Uncategorized
 ---
