@@ -1,4 +1,4 @@
-[#Recall These Thoughts](http://scottlougheed.com/jekyll/
-
+[Recall These Thoughts](http://scottlougheed.com/jekyll/
+========
 ##Jekyll Edition
 
