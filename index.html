@@ -16,7 +16,7 @@ layout: default
     <div class="postTitle">
     <!-- First is default post title text. Second provides conditional for link list posts -->
     <!-- <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a> -->
-    <a class='postLink' href="{% if post.link %}{{post.link}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}
+    <a class='postLink' href="{% if post.link %}{{post.link}}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}
     </div>
     <div class="postExt">
    {{ post.content }}

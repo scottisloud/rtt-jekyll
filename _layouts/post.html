@@ -6,7 +6,7 @@ layout: default
   <header class="post-header">
     <!-- First line is default line, second line includes variables for linkedlist style posts -->
     <!-- <h1 class="post-title" itemprop="name headline"><a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a></h1> -->
-    <h1 class="post-title" itemprop="name headline"><a href="{% if page.link %}{{ page.link }}{% else %}{{ post.url }}{% endif %}">{{ page.title }} {% if page.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></h1>
+    <h1 class="post-title" itemprop="name headline"><a href="{% if page.link %}{{ page.link }}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">{{ page.title }} {% if page.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></h1>
   <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
     <!-- commented out because I don't want to see author on the post metadata -->
     <!-- {% if page.author %}
