@@ -43,6 +43,15 @@ $on-laptop:        800px;
     }
 }
 
+//add a condition so small displays show tidier menu
+@media (max-width: 680px) {
+  a.page-link {
+    display: table;
+    font-size: 16px;
+    padding: 0px 0px 5px 0;
+    white-space: nowrap;
+  }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
