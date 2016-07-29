@@ -51,6 +51,18 @@ $on-laptop:        800px;
     padding: 0px 0px 5px 0;
     white-space: nowrap;
   }
+
+  img.logo {
+    width: 70px !important;
+    height: 70px !important;
+    padding-bottom: 1px !important;
+  }
+  .site-title {
+    font-size: 26px !important;
+  }
+  .site-description {
+    font-size: 16px !important;
+  }
 }
 
 
@@ -118,9 +130,9 @@ img.avatar  {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+  	display: block;
+  	margin-right: auto;
+  	margin-left: auto;
 }
 
 /**
@@ -405,7 +417,6 @@ pre {
   font-family: 'PT Sans';
   text-transform: capitalize;
   font-weight: 500;
-  // margin-top: 1em;
   &,
   &:visited {
     color: $grey-color-dark;
