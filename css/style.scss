@@ -203,7 +203,6 @@ a {
     &.postLink{
       color: black !important;
       &:hover {
-
           border-bottom: 1px dotted black ;
       }
 
@@ -214,7 +213,6 @@ a {
     &.post-title-link{
       color: black !important;
       &:hover {
-
           border-bottom: 1px dotted black !important ;
       }
 
@@ -614,7 +612,7 @@ pre {
 }
 .post-title {
   padding-top: 1em;
-  font-size: 1.7em;
+  font-size: 1.2em;
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
@@ -622,6 +620,9 @@ pre {
     font-size: 36px;
   }
 }
+ .post-title a {
+   color: #111 !important;
+ }
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
