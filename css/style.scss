@@ -382,6 +382,14 @@ pre {
   letter-spacing: 2px;
   text-indent: 2px;
 }
+
+.permalink {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
 .postTag {
   float: right;
 }
@@ -393,6 +401,7 @@ pre {
   text-indent: 3px;
   font-size: 20px;
   padding-bottom: .2em;
+
 }
 
 .postExt p, li {
@@ -608,14 +617,15 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 0;
 }
 .post-title {
   padding-top: 1em;
-  font-size: 1.2em;
+  padding-bottom: 0;
+  font-size: 20px;
   text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
   @include media-query($on-laptop) {
     font-size: 36px;
   }

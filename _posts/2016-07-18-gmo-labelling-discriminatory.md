@@ -6,11 +6,6 @@ author: scottisloud
 layout: post
 guid: http://scottlougheed.com/?p=119
 permalink: /2016/07/18/gmo-labelling-discriminatory/
-passthrough_url: http://www.centerforfoodsafety.org/press-releases/4432/rev-jesse-jackson-calls-on-president-obama-to-reject-discriminatory-labeling-bill
-twitterCardType:
-  - summary
-categories:
-  - Uncategorized
 format: link
 ---
 >In a letter sent directly to the president the renowned civil rights activist called attention to the “serious inequities [in the] GMO labeling legislation.” The bill would allow companies to use QR codes in place of on-package labeling to disclose product information. In the letter Jackson points out the discriminatory nature of such a labeling system;  

@@ -18,6 +18,7 @@ layout: default
     <!-- <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a> -->
     <a class='postLink' href="{% if post.link %}{{post.link}}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}
     </div>
+    {% if post.link %}<div class="permalink"><a href="{{site.baseurl}}{{post.permalink}}">Permalink</a></div><br />{% endif %}
     <div class="postExt">
    {{ post.content }}
     </div>
