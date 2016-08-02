@@ -117,6 +117,8 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    display: block;
+    margin: 0 auto;
 }
 
 img.logo {
@@ -144,6 +146,11 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
+    font-weight: bolder;
+    background: #eee;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 5px;
 }
 
 
@@ -372,7 +379,7 @@ pre {
 }
 .postContent {
   padding-top: 3.5em;
-  text-align: center;
+  // text-align: center;
 }
 .postDate {
   float: left;
