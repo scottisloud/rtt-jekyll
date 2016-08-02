@@ -326,6 +326,7 @@ pre {
   font-weight: 300;
   padding-top: 0;
 }
+
 .home{
   padding-bottom: 5em;
 }
@@ -635,7 +636,6 @@ pre {
  }
 .post-content {
   margin-bottom: $spacing-unit;
-  padding-bottom: 3em !important;
   p {
     font-size: 1rem;
   }
@@ -657,6 +657,13 @@ pre {
       font-size: 18px;
     }
   }
+}
+.post-footer {
+  max-width: 80%;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
 }
 
 /**

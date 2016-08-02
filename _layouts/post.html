@@ -7,16 +7,20 @@ layout: default
     <!-- First line is default line, second line includes variables for linkedlist style posts -->
     <!-- <h1 class="post-title" itemprop="name headline"><a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a></h1> -->
     <h1 class="post-title" itemprop="name headline"><a href="{% if page.link %}{{ page.link }}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">{{ page.title }} {% if page.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></h1>
-  <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-<!-- Display permalink if link post -->
+  <center>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <!-- Display permalink if link post -->
     {% if page.link %}
-     <div class="permalink"><a href="{{site.baseurl}}{{page.permalink}}">Permalink</a></div><br />{% endif %}
+      <div class="permalink"><a href="{{site.baseurl}}{{page.permalink}}">Permalink</a></div><br />
+    {% endif %}
    </center>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  <div class="post-footer">
+    Comments, thoughts or questions about this post? Contact me on <a href="http://twitter.com/scottisloud" target="_blank">{{site.twitter_username}}</a> or shoot me an <a href="mailto:{{site.email}}?subject=Comment regarding post '{{page.title}}'">email</a>
+  </div>
 
 </article>
