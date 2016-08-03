@@ -5,11 +5,11 @@ published: true
 ---
 My regular reader will have noticed recent change to the appearance of Recall These Thoughts. For the second time in one year I've changed blog platforms. You, dear reader, will likely remember the move away from Squarespace over to Wordpress. This was motivated as both a cost-saving measure and a way to gain a bit of additional flexibility. I love Squarespace, but a big part of having a blog for me is having a little toy to tinker with. Wordpress offered a bit more of that type of freedom.  
 
-But Wordpress has it's downsides. For one, it was very difficult to modify templates. The CSS was was already condensed and extremely complex – thus largely inscrutable. This made some template modifications difficult to make. Moreover, if you neglected to make a child template prior to making all of your changes (as I did) and an update is issued to your template, you're in for a world of hurt.
+But Wordpress has its downsides. For one, it was very difficult to modify templates. The CSS was was already condensed and extremely complex – thus largely inscrutable. This made some template modifications difficult to make. Moreover, if you neglected to make a child template prior to making all of your changes (as I did) and an update is issued to your template, you're in for a world of hurt.
 
 I also found the backend to be "weighty". There was a lot of stuff back there, a lot of things I didn't need. The editor was a bit fussy, it didn't always handle markdown very well, and it really just offered more than I needed.
 
-Overall Wordpress was just *too much* and not really that fun to play with. I wanted something a little simpler, a little faster, a little more fun to play with for this amateur coder.
+Overall Wordpress was just *too much* and not really that fun to play with. It is a powerful and popular platform, but it didn't offer me the type of tinkering I really yearned for. I wanted something a little simpler, a little faster, a little more fun to play with for this amateur coder.
 
 I had tried to install Jekyll about a year ago. Jekyll is a Ruby and Liquid based static website generator. Having no familiarity with Ruby and only the most basic competence with the command line, I got hung up and frustrated with Jekyll.
 
