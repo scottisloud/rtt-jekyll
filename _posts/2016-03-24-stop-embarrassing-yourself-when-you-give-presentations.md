@@ -4,10 +4,6 @@ title: Stop embarrassing yourself when you give presentations!
 date: 2016-03-24T22:56:52+00:00
 author: scottisloud
 layout: post
-guid: http://wp.scottlougheed.com/2016/03/24/2016324stop-embarrassing-yourself-when-you-give-presentations/
-permalink: /2016/03/24/stop-embarrassing-yourself-when-you-give-presentations/
-categories:
-  - Uncategorized
 ---
 As I wrap up a semester of teaching a third year university class and I prepare to present at the American Association of Geographers conference next week, I&#8217;ve been thinking about presentations, presentations, presentations. We&#8217;ve all seen it, or perhaps been there ourselves: The previously well-composed presenter now desperately trying to wake their computer up so we can move to the next slide, or scrambling to close embarrassing browser tabs and email messages only to then fish through a slew of personal files to locate the presentation file. It&#8217;s unpleasant to experience this from either side of the podium. It can disrupt the flow of our presentation, undo the polished public persona we work hard to cultivate, or reveal information we might prefer kept private. I have seen veteran academics, part of whose job is to regularly give presentations, melt into an embarrassed and frustrated mess. This has always been surprising for me. It is the things we do on a regular basis in our jobs that we should have mastered, the kinks long-ago ironed out. For some reason when it comes to technology this seems not to be the case.
 
@@ -26,10 +22,7 @@ You&#8217;ll want to password protect your dedicated presentation account so I d
 ### Configure your new user account {#configureyournewuseraccount}
 
 Now you have a generic user account that cannot access any of your personal files or make changes to your system. Now we need to configure this account. It will be tailor-made for giving presentations and to make the process as smooth as possible for you or your guest presenter.
-
-<img src="http://scottlougheed.com//hosted/img/finder-settings.png" alt="Make external drives easy to find" width="914" height="864" />
-
-&nbsp;
+<img src="{{site.baseurl}}/img/finder-settings.png" alt="Make external drives easy to find"/>
 
 ### Make all the small tweaks {#make-all-the-small-tweaks}
 
@@ -41,29 +34,29 @@ This is key. No iCloud, no email, no iMessages, no Google, no anything. Don&#821
 
 ### Clear the dock {#clear-the-dock}
 
-Regardless of how you like it with your personal account, make the dock visible, and perhaps a little larger than you&#8217;d normally like it. Now remove everything from the dock except the essential presentation-giving items. My presentation dock looks like this:<figure style="width: 1240px" class="wp-caption alignnone">
-
-<img src="http://scottlougheed.com//hosted/img/presentation-dock.png" alt="Minimal presentation dock. " width="1240" height="242" /><figcaption class="wp-caption-text">Minimal presentation dock.</figcaption></figure> 
-
-&nbsp;
-
+Regardless of how you like it with your personal account, make the dock visible, and perhaps a little larger than you&#8217;d normally like it. Now remove everything from the dock except the essential presentation-giving items. My presentation dock looks like this:
+<figure>
+  <img src="{{site.baseurl}}/img/presentation-dock.png" alt="Minimal presentation dock." /><figcaption>Minimal presentation dock.</figcaption>
+</figure>
 You want to have only the essential tools at hand. You aren&#8217;t going to be checking your email on this user account, so why have Mail in the dock, right?
-  
+
 You&#8217;ll notice that I&#8217;ve included System Preferences. I don&#8217;t normally have this in my dock on my main account, but here, it&#8217;s nice to have it immediately at hand should something go awry and you need to change a setting on the fly.
 
 ### Set your defaults {#set-your-defaults}
 
 I don&#8217;t have Flash installed on my computer and I use Safari as my default browser. Since Google Chrome has Flas built into the browser I keep it around just in case I encounter a site that, god help me, requires Flash. If I encounter a site in Safari, I just quickly switch to Chrome for that short while. Having Chrome as the default here means that if I click any links, I know they&#8217;ll open in a Flash-Friendly browser.
 
-But remember, you aren&#8217;t the only one using this Presentation account, and your guest presenters may not be as tech savvy as you. You also can&#8217;t anticipate what kind of content your guest presenters might be displaying. Having Chrome as the defaul ensures that if you or your guest presenter needs flash, you aren&#8217;t doing the browser-juggle just to get things right.<figure style="width: 486px" class="wp-caption alignnone">
+But remember, you aren&#8217;t the only one using this Presentation account, and your guest presenters may not be as tech savvy as you. You also can&#8217;t anticipate what kind of content your guest presenters might be displaying. Having Chrome as the defaul ensures that if you or your guest presenter needs flash, you aren&#8217;t doing the browser-juggle just to get things right.
 
-<img src="http://scottlougheed.com//hosted/img/amphetamine-settings.png" alt="Default Amphetamine Settings in Presentation Account" width="486" height="728" /><figcaption class="wp-caption-text">Default Amphetamine Settings in Presentation Account</figcaption></figure> 
+<figure>
+  <img src="{{site.baseurl}}/img/amphetamine-settings.png" alt="Default Amphetamine Settings in Presentation Account" /><figcaption>Default Amphetamine Settings in Presentation Account</figcaption>
+</figure>
 
 ### A little amphetamine goes a long way {#a-little-amphetamine-goes-a-long-way}
 
 Avoid having your display fall asleep in the middle of a presentation by installing a small and free utility called &#8220;[Amphetamine](https://itunes.apple.com/ca/app/amphetamine/id937984704?mt=12)&#8221; (Mac App Store link). This menu bar utility prevents your computer&#8217;s display from falling asleep regardless of what your system preferences settings are. In my presentation account I have Amphetamine set up to launch at log-in and to be enabled by default (I also use Amphetamine on my main user account but not in this way). This means you _never_ have to think about your display settings when giving a presentation. As soon as you or your co-presenter logs into the presentation account, Amphetamine is enabled.
 
-You can, of course, simply adjust the &#8220;Energy Saver&#8221; settings for this user account to set the display to &#8220;never sleep&#8221;, but I appreciate that Amphetamine offers a visual indicator of it&#8217;s current status. Another advantage is that, should I need to, I can make an ajustment a bit more easily compared to the Energy Saver settings. Also, since I run Amphetamine on my main user account (though in a much different way), I have it instaled anyway, so why not use it?
+You can, of course, simply adjust the &#8220;Energy Saver&#8221; settings for this user account to set the display to &#8220;never sleep&#8221;, but I appreciate that Amphetamine offers a visual indicator of it&#8217;s current status. Another advantage is that, should I need to, I can make an adjustment a bit more easily compared to the Energy Saver settings. Also, since I run Amphetamine on my main user account (though in a much different way), I have it installed anyway, so why not use it?
 
 ### Share only the right files, only the right way. {#share-only-the-right-files-only-the-right-way-}
 
@@ -91,10 +84,11 @@ This is, of course, the easiest. On presentation day, your co-presenters can jus
 
 ### Open everything for the first time
 
-In order to ensure a nice smooth presentation, you&#8217;ll want to take a moment right now to open every application that you expect might be used: your web browsers, your presentation software, insert a thumb drive, and so on. Just take each program for a spin. If you will be on an institutional wireless network such as the one at your university, be prepared to re-login to that with this new user account (remember, no iCloud Keychain to pass along your credentials!). By going through this process now instead of on presentation day, you&#8217;ll deal with all those one-time-only first-launch dialogue boxes that all applications inevitably display. You may also find you need to re-authorize your Office 365 credentials if you are using any Microsoft software. Better to do that now, rather than scrambling moments before you or a guest presents!<figure style="width: 474px" class="wp-caption alignnone">
+In order to ensure a nice smooth presentation, you&#8217;ll want to take a moment right now to open every application that you expect might be used: your web browsers, your presentation software, insert a thumb drive, and so on. Just take each program for a spin. If you will be on an institutional wireless network such as the one at your university, be prepared to re-login to that with this new user account (remember, no iCloud Keychain to pass along your credentials!). By going through this process now instead of on presentation day, you&#8217;ll deal with all those one-time-only first-launch dialogue boxes that all applications inevitably display. You may also find you need to re-authorize your Office 365 credentials if you are using any Microsoft software. Better to do that now, rather than scrambling moments before you or a guest presents!
 
-<img src="http://scottlougheed.com//hosted/img/fast-user-switching-alternative.png" alt="Fast User Switching in OS X" width="474" height="324" /><figcaption class="wp-caption-text">Fast User Switching in OS X</figcaption></figure> 
-
+<figure>
+  <img src="{{site.baseurl}}/img/fast-user-switching-alternative.png" alt="Fast User Switching in OS X" /><figcaption>Fast User Switching in OS X</figcaption>
+</figure>
 ### Take advantage of Fast User Switching
 
 OS X offers the ability to have multiple users logged into the computer at one time. This means you can easily switch between your main user account and your presentation account without needing to close applications or log out (Though you might want to remember to close any file you plan to open on the other account!).
