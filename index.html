@@ -15,7 +15,7 @@ layout: default
     <!-- Provides conditional for link list posts. If variable "link" is present in the post file, post title links to source and inserts an arrow. If no link variable is present, the title links to the post itself -->
     <a class='postLink' href="{% if post.link %}{{post.link}}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}
     </div>
-    {% if post.link %}<div class="permalink"><a href="{{site.baseurl}}{{post.permalink}}">Permalink</a></div><br />{% endif %}
+    {% if post.link %}<div class="permalink"><a href="{{ site.baseurl }}{{ post.url }}">Permalink</a></div><br />{% endif %}
     <div class="postExt">
    {{ post.content }}
     </div>
