@@ -1,5 +1,5 @@
 ---
-title: Nuts recalled for unlabelled nuts
+title: Nuts recalled for undisclosed nuts
 layout: post
 link: http://www.dailymail.co.uk/news/article-3716810/Lidl-recalls-yoghurts-peanuts-don-t-warn-customers-contain-MILK-NUTS.html
 published: true
