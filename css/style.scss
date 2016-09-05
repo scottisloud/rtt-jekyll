@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
+$base-font-family: "Mukta Vaani", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -449,9 +449,10 @@ pre {
 .site-title {
   font-size: 36px;
   font-weight: 100;
-  font-family: 'PT Sans';
+  font-family: 'Mukta Vaani', sans-serif;
   text-transform: capitalize;
   font-weight: 500;
+  letter-spacing: .05em;
   &,
   &:visited {
     color: $grey-color-dark;
@@ -460,7 +461,7 @@ pre {
 .site-description {
   font-size: 18px;
   letter-spacing: 2px;
-  // text-indent: 6px;
+  letter-spacing: .125em;
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
@@ -484,15 +485,19 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: "PT Sans";
-  font-size: 12px;
+  font-family: 'Mukta Vaani', sans-serif;
+  font-size: 16px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
 .page-tagline {
-  font-size: 18px;
-  font-family: "PT Sans";
+  font-size: 16px;
+  font-family: 'Mukta Vaani', sans-serif;
   color: rgb(170, 170, 170);
-  text-align: center;
   text-transform: lowercase;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 .page-link {
   color: rgb(170, 170, 170);
@@ -567,7 +572,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: "PT Sans";
+  font-family: 'Mukta Vaani', sans-serif;
 }
 .footer-col-wrapper {
   font-size: 15px;

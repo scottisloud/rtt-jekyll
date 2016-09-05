@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-tagline: "Publications and Research Output"
+#tagline: "Publications and Research Output"
 ---
 
 <h2 class="articles">Peer-reviewed Journal Articles</h2>
