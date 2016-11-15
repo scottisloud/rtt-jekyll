@@ -8,6 +8,12 @@ permalink: /publications/
 <h2 class="articles">Peer-reviewed Journal Articles</h2>
 <ul class="articles">
   <li>
+    Lougheed, Scott Cameron; Hird, Myra J (Submitted) -------
+  </li>
+  <li>
+    Lougheed, Scott Cameron; Metuzals, Jessica; Hird, Myra J (Submitted) -------
+  </li>
+  <li>
     Lougheed, Scott Cameron; Hird, Myra J; Rowe, R Kerry (2016) <a href="http://www.ingentaconnect.com/content/whp/ev/2016/00000025/00000003/art00004" target="_blank" title="Governing Household Waste Management">"Governing Household Waste Management: An Empirical Analysis and Critique"</a>. <i>Environmental Values,</i> 25(3): 287-308.
   </li>
   <li>
@@ -17,15 +23,15 @@ permalink: /publications/
 <h2 class="conference-presentations">Conference Presentations</h2>
 <ul class="conference-presentations">
   <li>
-    Lougheed, A. 2016. "The wastes of biopolitical food safety governance". American Association of Geographers Annual Meeting, San Francisco California.
+    Lougheed, Scott Cameron. (2016). "The wastes of biopolitical food safety governance". American Association of Geographers Annual Meeting, San Francisco California.
   </li>
   <li>
-    Lougheed, S. 2015. “Data Management: Not a waste of time”. Second Annual Data Day, Queen’s University Library. Kingston, Ontario.
+    Lougheed, Scott Cameron. (2015). “Data Management: Not a waste of time”. Second Annual Data Day, Queen’s University Library. Kingston, Ontario.
   </li>
   <li>
-    Lougheed, Scott Cameron.  2014. "Recalling, Recovering, (Re)cycling, and Rendering: The Metabolism of the Industrial Food System.” 4th International Conference on Food Studies. Prato, Italy.
+    Lougheed, Scott Cameron. (2014). "Recalling, Recovering, (Re)cycling, and Rendering: The Metabolism of the Industrial Food System.” 4th International Conference on Food Studies. Prato, Italy.
   </li>
   <li>
-    Lougheed, Scott Cameron. 2013 “The Value of Whey: Networks and Social Lives of Things.” Third International Conference on Food Studies, Austin TX.
+    Lougheed, Scott Cameron. (2013) “The Value of Whey: Networks and Social Lives of Things.” Third International Conference on Food Studies, Austin TX.
   </li>
 </ul>
