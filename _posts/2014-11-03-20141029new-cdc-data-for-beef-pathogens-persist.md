@@ -8,7 +8,7 @@ layout: post
 guid: http://scottlougheed.com/2014/11/03/20141029new-cdc-data-for-beef-pathogens-persist/
 permalink: /2014/11/03/20141029new-cdc-data-for-beef-pathogens-persist/
 categories:
-  - Uncategorized
+  - 
 tags:
   - ABR
   - beef

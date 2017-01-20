@@ -6,5 +6,5 @@ permalink: /cv/
 
 
 
-### Latest CV avalable [here](https://dl.dropboxusercontent.com/u/1971444/Scott%20Lougheed%20CV.pdf)
+### Latest CV available <a href="{{site.baseurl}}/files/cv.pdf" target="_blank">here</a>
 {: style="text-align: center;"}

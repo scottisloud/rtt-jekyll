@@ -7,7 +7,7 @@ layout: post
 guid: http://wp.scottlougheed.com/2015/09/18/2015918us-is-fixing-food-security-and-food-waste-with-a-bandaid/
 permalink: /2015/09/18/2015918us-is-fixing-food-security-and-food-waste-with-a-bandaid/
 categories:
-  - Uncategorized
+  - 
 ---
 The United States government wants to reduce their food waste by half by 2030:
 

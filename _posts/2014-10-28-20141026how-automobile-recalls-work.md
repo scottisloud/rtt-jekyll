@@ -8,7 +8,7 @@ guid: http://scottlougheed.com/2014/10/28/20141026how-automobile-recalls-work/
 permalink: /2014/10/28/20141026how-automobile-recalls-work/
 link: http://feeds.wired.com/c/35185/f/661370/s/3fd1c648/sc/36/l/0L0Swired0N0C20A140C10A0Ctakata0Ehow0Erecalls0Ework0C/story01.htm
 categories:
-  - Uncategorized
+  - 
 tags:
   - link
   - recalls

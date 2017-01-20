@@ -6,7 +6,7 @@ author: scottisloud
 layout: post
 link: http://www.canadaswastenetwork.com
 categories:
-  - Uncategorized
+  - 
 ---
 ![CWN logo]({{ site.baseurl }}/img/cwn-logo.png)
 

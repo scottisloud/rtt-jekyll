@@ -7,7 +7,7 @@ layout: post
 guid: http://scottlougheed.com/2015/10/21/20151021two-short-films-about-household-food-waste-in-philippines-and-india/
 permalink: /2015/10/21/20151021two-short-films-about-household-food-waste-in-philippines-and-india/
 categories:
-  - Uncategorized
+  - 
 ---
 The <a target="_blank" href="http://www.snis.ch">Swiss Network for International Studies</a> has been doing work on food consumption in various regions around the world under the Food Consumption project. They&#8217;ve recently released two short films about <a target="_blank" href="http://foodconsumption.snis.ch/eating-in-and-food-waste-in-bangalore/">Eating In and Food Waste in Bangalore</a>&nbsp;and <a target="_blank" href="http://foodconsumption.snis.ch/eating-out-and-food-waste-in-metro-manila/">Eating Out and Food Waste in Metro Manila</a>.&nbsp;
 

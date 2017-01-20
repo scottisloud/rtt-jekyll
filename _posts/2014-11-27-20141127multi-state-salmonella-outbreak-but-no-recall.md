@@ -7,7 +7,7 @@ layout: post
 guid: http://scottlougheed.com/2014/11/27/20141127multi-state-salmonella-outbreak-but-no-recall/
 permalink: /2014/11/27/20141127multi-state-salmonella-outbreak-but-no-recall/
 categories:
-  - Uncategorized
+  - 
 ---
 The <a target="_blank" href="http://www.foodpoisonjournal.com/food-poisoning-information/68-sickened-by-salmonella-sprouts-but-no-recall/#.VHcTIIu5dSV">Food Poison&nbsp;Journal</a>&nbsp;asks &#8220;68 Sickened by Salmonella Sprouts, but No Recall?&#8221;. This is an interesting question. At first glance, I was dismayed too. Why on earth, with nearly 70 cases, wouldn&#8217;t Wonton foods recall their bean sprouts.&nbsp;
 

@@ -7,6 +7,6 @@ layout: post
 guid: http://scottlougheed.com/2014/11/12/20141112canadas-waste-flow-is-now-on-facebook/
 permalink: /2014/11/12/20141112canadas-waste-flow-is-now-on-facebook/
 categories:
-  - Uncategorized
+  - 
 ---
 Canada&#8217;s Waste Flow Project, of which I am a member and which is populated by some really fantastic people, now has its own <a target="_blank" href="https://www.facebook.com/canadaswasteflow">Facebook</a> page.&nbsp;

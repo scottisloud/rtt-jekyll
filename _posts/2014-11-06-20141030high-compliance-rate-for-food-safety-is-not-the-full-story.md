@@ -9,7 +9,7 @@ guid: http://scottlougheed.com/2014/11/06/20141030high-compliance-rate-for-food-
 permalink: /2014/11/06/20141030high-compliance-rate-for-food-safety-is-not-the-full-story/
 link: http://www.foodincanada.com/food-safety/microbiological-testing-finds-food-safe-report-129631
 categories:
-  - Uncategorized
+  - 
 ---
 A 98.7% compliance rate is fine. That’s a great compliance rate. But it really obscures the deeper implications.
 

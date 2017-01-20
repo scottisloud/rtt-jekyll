@@ -7,7 +7,7 @@ layout: post
 guid: http://scottlougheed.com/2015/02/04/201524positively-stunning-stats-about-plastic-consumption/
 permalink: /2015/02/04/201524positively-stunning-stats-about-plastic-consumption/
 categories:
-  - Uncategorized
+  - 
 ---
 Food Manufacturing writing about a recent report on plastic production and use:<figure>
 

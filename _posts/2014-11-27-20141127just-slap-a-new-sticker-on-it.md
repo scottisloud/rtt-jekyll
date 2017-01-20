@@ -7,7 +7,7 @@ layout: post
 guid: http://scottlougheed.com/2014/11/27/20141127just-slap-a-new-sticker-on-it/
 permalink: /2014/11/27/20141127just-slap-a-new-sticker-on-it/
 categories:
-  - Uncategorized
+  - 
 ---
 From the <a target="_blank" href="http://www.cbc.ca/news/canada/montreal/grocery-stores-caught-cheating-on-packaging-dates-of-meat-and-poultry-1.2851437?cmp=rss">CBC</a>:
 

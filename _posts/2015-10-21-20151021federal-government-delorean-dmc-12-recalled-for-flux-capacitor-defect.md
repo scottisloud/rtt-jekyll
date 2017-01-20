@@ -8,7 +8,7 @@ guid: http://scottlougheed.com/2015/10/21/20151021federal-government-delorean-dm
 permalink: /2015/10/21/20151021federal-government-delorean-dmc-12-recalled-for-flux-capacitor-defect/
 link: http://healthycanadians.gc.ca/recall-alert-rappel-avis/tc/2015/55494r-eng.php
 categories:
-  - Uncategorized
+  - 
 ---
 > This could have disastrous consequences.
 

@@ -8,7 +8,7 @@ guid: http://scottlougheed.com/2014/10/31/20141030top-10-most-dangerous-foods/
 permalink: /2014/10/31/20141030top-10-most-dangerous-foods/
 link: http://feedproxy.google.com/~r/FoodPoisonBlog/~3/p1iUk4TkhB8/
 categories:
-  - Uncategorized
+  - 
 ---
 Certainly some oddities here. Potatoes make #5 on the list, simply due to the fact that potato&nbsp;_salad_&nbsp;has been implicated in 108 outbreaks.&nbsp;
 

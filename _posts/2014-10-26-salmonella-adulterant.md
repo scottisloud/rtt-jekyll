@@ -10,7 +10,7 @@ link: http://feeds.lexblog.com/~r/foodsafetynews/mRcs/~3/3T7h3RC28-4/
 structured_content:
   - '{"oembed":{},"overlay":true}'
 categories:
-  - Uncategorized
+  - 
 tags:
   - Adulterant
   - FSIS

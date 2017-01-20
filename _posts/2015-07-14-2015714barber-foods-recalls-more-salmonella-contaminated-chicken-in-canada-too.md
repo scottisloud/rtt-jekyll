@@ -8,7 +8,7 @@ guid: http://scottlougheed.com/2015/07/14/2015714barber-foods-recalls-more-salmo
 permalink: /2015/07/14/2015714barber-foods-recalls-more-salmonella-contaminated-chicken-in-canada-too/
 link:  http://www.inspection.gc.ca/about-the-cfia/newsroom/food-recall-warnings/complete-listing/2015-07-13/eng/1436841234604/1436841237916
 categories:
-  - Uncategorized
+  - 
 ---
 For some reason this particular recall is trending on Facebook&#8230; this is the first time I&#8217;ve ever seen that happen. Interestingly, <a target="_blank" href="http://globalnews.ca/news/2108952/some-stuffed-chicken-products-recalled-due-to-possible-salmonella-contamination/">some news reports</a> are highlighting the fact that it was prompted by a &#8220;recall in another (undisclosed) country&#8221;. It takes about 5 minutes to find out that the country is the USA, and that this is actually just a second wave of an <a target="_blank" href="http://www.foodsafetynews.com/2015/07/barber-foods-recalls-kiev-stuffed-chicken-for-possible-salmonella-contamination/">earlier recall from July 2nd</a> that didn&#8217;t extend to Canada.&nbsp;
 

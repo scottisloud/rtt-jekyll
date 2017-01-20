@@ -7,7 +7,7 @@ layout: post
 guid: http://scottlougheed.com/?p=114
 permalink: /2016/06/03/irradiation-may-not-harm-human-health-but-is-it-the-answer-we-need/
 categories:
-  - Uncategorized
+  - 
 ---
 Health Canada recently announced a [regulatory initiative](http://www.hc-sc.gc.ca/ahc-asc/legislation/acts-reg-lois/frp-ppr/2016-2018/beef-irradiation-boeuf-eng.php) which would allow beef processors to sell irradiated ground beef. I was invited to speak to [Calgary&#8217;s Kingkade and Breakenridge on NewsTalk 770](http://www.newstalk770.com/kingkade-and-breakenridge/) about what this initiative might mean. The interview went well, and Rob and Roger are both thoughtful and insightful radio hosts, but there was a lot that didn&#8217;t get covered. I&#8217;ll expand on some of those thoughts here.
 

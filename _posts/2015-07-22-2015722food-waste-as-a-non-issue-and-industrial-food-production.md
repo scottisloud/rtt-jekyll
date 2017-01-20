@@ -8,7 +8,7 @@ guid: http://scottlougheed.com/2015/07/22/2015722food-waste-as-a-non-issue-and-i
 permalink: /2015/07/22/2015722food-waste-as-a-non-issue-and-industrial-food-production/
 link: https://foodpolicyforthought.wordpress.com/2015/07/18/something-is-happening-in-the-food-waste-business/
 categories:
-  - Uncategorized
+  - 
 ---
 > However, agreeing on the existence of a problem never automatically led to solutions, which has become painfully evident in this case. Despite the issue’s uncontroversial character and seemingly lack of political sensitiveness, food waste has long been a political non-issue. Everyone seems concerned but no one seems to take any action to deal with the problem.
 >

@@ -8,7 +8,7 @@ guid: http://scottlougheed.com/2015/07/20/2015719bill-marler-on-prosecutions-and
 permalink: /2015/07/20/2015719bill-marler-on-prosecutions-and-food-safety-violations/
 link: http://www.marlerblog.com/lawyer-oped/food-crimes-when-to-prosecute-and-when-to-not/
 categories:
-  - Uncategorized
+  - 
 ---
 Lots of insight in this article.
 

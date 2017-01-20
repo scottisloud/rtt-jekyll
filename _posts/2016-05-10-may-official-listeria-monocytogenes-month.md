@@ -7,7 +7,7 @@ layout: post
 guid: http://scottlougheed.com/?p=103
 permalink: /2016/05/10/may-official-listeria-monocytogenes-month/
 categories:
-  - Uncategorized
+  - 
 ---
 Okay, so perhaps not precisely the month of May, but starting in late April there&#8217;s been a spat of recalls attributable to Listeria in Canada and the United States. Looking at the CFIA recall listings for the first 10 days of May:
 
