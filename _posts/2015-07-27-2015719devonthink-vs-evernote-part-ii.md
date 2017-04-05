@@ -70,7 +70,7 @@ Second, &#8220;See Also&#8221;: DEVONthink suggests other files that might be re
   * DEVONthink (Pro Office, the top tier version) allows you to turn scans of text into selectable, searchable text with extremely good accuracy (Using ABBYY&#8217;s OCR package). Evernote has no such function, but Evernote will make images of text, including handwriting searchable (but NOT selectable), with a surprisingly high level of accuracy.
   * Evernote imposes &#8220;upload&#8221; limits on some subscription levels, and also various other seemingly arbitrary usage limits. DEVONthink has no limits except for your computer&#8217;s resources.
   * DEVONthink&#8217;s documentation is detailed, accurate, and up-to-date. Evernote&#8217;s documentation lacks detail, is frequently out of date, and is not centralized (this is, in part, a reflection of the level of complexity of the two applications. DEVONthink needs detailed documentation even to get a handle on the basic, Evernote is slightly more straightforward, at least at a basic level).
-  * Both applications offer robust search capabilities. Evernote&#8217;s search is syntax driven, which makes it easy to generate good search terms if you remember the syntax. DEVONthink&#8217;s searching is perhaps more powerful on the whole, but it is not fully syntax-driven and thus, generating a search term can be a bit more of a chore.</ul>
+  * Both applications offer robust search capabilities. Evernote&#8217;s search is syntax driven, which makes it easy to generate good search terms if you remember the syntax. DEVONthink&#8217;s searching is perhaps more powerful on the whole, but it is not fully syntax-driven and thus, generating a search term can be a bit more of a chore.
 
     ## Conclusions {#conclusions}
 
