@@ -17,5 +17,6 @@ github_username:  scottisloud
 paginate: 15
 # Build settings
 markdown: kramdown
-
+kramdown:
+  parse_block_html: true
 gems: [jekyll-paginate, jekyll-twitter-plugin]

@@ -15,14 +15,11 @@ Here&#8217;s an example of using note links within Evernote. You might, for exam
 
 <figure>
   <img src="{{ site.baseurl }}/img/en-travel-toc.png" alt="An example of a travel itinerary Table of Contents in Evernote" title="An example of a travel itinerary Table of Contents in Evernote" />
-  <figcaption>An example of a travel itinerary Table of Contents in Evernote</figcaption>
 </figure>
-
-Now you can put this table of contents note in your Evernote shortcuts for easy access to ALL of your tip documents, instead of putting every travel document in your shortcuts which would cluttering things up!
+An example of a travel itinerary Table of Contents in Evernote is pictured above. Now you can put this table of contents note in your Evernote shortcuts for easy access to ALL of your tip documents, instead of putting every travel document in your shortcuts which would cluttering things up!
 
 <figure>
   <img src="{{ site.baseurl }}/img/en-calendar-note-link.png" alt="An event with an Evernote link in a shared calendar" title="An event with an Evernote link in a shared calendar" />
-  <figcaption>An event with an Evernote link in a shared calendar.</figcaption>
 </figure>
 
 An example of using note links outside of Evernote: My partner and I have a collection of recipes in a shared notebook that we add to regularly. We also share a household calendar. We plan our dinners out for each week (well, most of the time we at least _try_ to do that) and create calendar events for each dinner. In the URL section for each event, if the recipe is stored in Evernote, we&#8217;ll put a note link to that recipe. This way, no matter who happens to be home that day to cook, she and I both have access to the recipe easily from our Mac or iOS device (Yes, the links even work for Calendar and Evernote in iOS even if you set up the link on the Mac!). The same goes for task managers. I use OmniFocus and regularly use note links to surface important documents associated with an action in Omnifocus.
@@ -51,10 +48,9 @@ DEVONthink has what they refer to as an &#8220;Artificial Intelligence&#8221; en
 
 <figure>
   <img src="{{ site.baseurl }}/img/dt-see-also-classify.png" alt="The right hand drawer shows suggestions for where this article should be sorted. The lower half of the drawer suggests related content" title="The right hand drawer shows suggestions for where this article should be sorted. The lower half of the drawer suggests related content." />
-  <figcaption>The right hand drawer shows suggestions for where this article should be sorted (note that it suggests my biosecurity folder as the first suggestion, and the subject of the paper happens be biosecurity). The lower half of the drawer suggests related content.</figcaption>
 </figure>
 
-Second, &#8220;See Also&#8221;: DEVONthink suggests other files that might be related to the one you currently have selected. When you have a large library of PDFs like I do, it can be very nice to have DEVONthink suggest a slew of related articles, allowing you to easily go down a bit of a literature-reviewing rabbit hole. More about how this set of features works can be found on DEVONtechnologies&#8217; [write up](http://www.devontechnologies.com/technology.html).
+Second, &#8220;See Also&#8221;: DEVONthink suggests other files that might be related to the one you currently have selected, as shown in the above image. When you have a large library of PDFs like I do, it can be very nice to have DEVONthink suggest a slew of related articles, allowing you to easily go down a bit of a literature-reviewing rabbit hole. More about how this set of features works can be found on DEVONtechnologies&#8217; [write up](http://www.devontechnologies.com/technology.html).
 
 ### Miscellany {#miscellany}
 
