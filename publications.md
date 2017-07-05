@@ -11,7 +11,7 @@ permalink: /publications/
     Lougheed, Scott Cameron; Hird, Myra J (Submitted) -------
   </li>
   <li>
-    Lougheed, Scott Cameron; Metuzals, Jessica; Hird, Myra J (Submitted) -------
+    Lougheed, Scott Cameron; Metuzals, Jessica; Hird, Myra J (2017) <a href="https://doi.org/10.1080/1523908X.2017.1343137" target="_blank">"Modes of Governing Canadian Waste Management: a case study of Metro Vancouver’s energy-from-waste controversy"</a> <i>Journal of Environmental Policy and Planning,</i> doi: 10.1080/1523908X.2017.1343137.
   </li>
   <li>
     Lougheed, Scott Cameron; Hird, Myra J; Rowe, R Kerry (2016) <a href="http://www.ingentaconnect.com/content/whp/ev/2016/00000025/00000003/art00004" target="_blank" title="Governing Household Waste Management">"Governing Household Waste Management: An Empirical Analysis and Critique"</a>. <i>Environmental Values,</i> 25(3): 287-308.
@@ -22,6 +22,9 @@ permalink: /publications/
 </ul>
 <h2 class="conference-presentations">Conference Presentations</h2>
 <ul class="conference-presentations">
+  <li>
+    Lougheed, Scott Cameron. (2017). [invited panelist] “Food Regulation: The Best Thing Since Sliced Bread or Just Plain Nuts!” <i>Atlantic Conference on Public Administration</i>. January 26-27. Dalhousie University, Halifax, Nova Scotia.
+  </li>
   <li>
     Lougheed, Scott Cameron. (2016). "The wastes of biopolitical food safety governance". American Association of Geographers Annual Meeting, San Francisco California.
   </li>

@@ -9,7 +9,7 @@
 title: Recall These Thoughts
 email: info@scottlougheed.com
 description: Food, Food Safety, and Other Nonsense
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/jekyll/" # the subpath of your site, e.g. /blog
 baseurlnoslash: "jekyll"
 url: "http://scottlougheed.com" # the base hostname & protocol for your site
 twitter_username: scottisloud
