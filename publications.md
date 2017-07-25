@@ -8,7 +8,7 @@ permalink: /publications/
 <h2 class="articles">Peer-reviewed Journal Articles</h2>
 <ul class="articles">
   <li>
-    Lougheed, Scott Cameron; Hird, Myra J (Submitted) -------
+    Lougheed, Scott Cameron; Hird, Myra J (2017) <a href="http://doi.org/10.1007/s10611-017-9699-x" target="_blank">"Food Security and Secure Food in the Anthropocene"</a> <i>Journal of Crime, Law, and Social Change,</i> doi: 10.1007/s10611-017-9699-x.
   </li>
   <li>
     Lougheed, Scott Cameron; Metuzals, Jessica; Hird, Myra J (2017) <a href="https://doi.org/10.1080/1523908X.2017.1343137" target="_blank">"Modes of Governing Canadian Waste Management: a case study of Metro Vancouver’s energy-from-waste controversy"</a> <i>Journal of Environmental Policy and Planning,</i> doi: 10.1080/1523908X.2017.1343137.
