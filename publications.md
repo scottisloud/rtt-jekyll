@@ -5,6 +5,21 @@ permalink: /publications/
 #tagline: "Publications and Research Output"
 ---
 
+<h2 class="articles">In Preparation</h2>
+<ul class="articles">
+  <li>
+    Lougheed, Scott Cameron. "Indeterminacy, biopolitics, and internalizing contaminated food"
+  </li>
+  <li>
+  	Lougheed, Scott Cameron. "'The warm blanket of public health': Relating to disease during food safety enforcement"
+  </li>
+
+<li>
+    Chiles, Robert M; Lougheed, Scott Cameron. "Negotiating legitimacy: Neoliberal and agrarian strategies in resolving the enigma of animal welfare"
+  </li>
+
+</ul>	
+
 <h2 class="articles">Peer-reviewed Journal Articles</h2>
 <ul class="articles">
   <li>

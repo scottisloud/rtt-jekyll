@@ -14,12 +14,12 @@ layout: post
 Here&#8217;s an example of using note links within Evernote. You might, for example, collect some travel documents for an upcoming trip: Hotel Confirmation email, flight itinerary, your airport shuttle ticket, and some interesting sights near your hotel. They live in your Travel notebook and perhaps you tag them &#8220;italy1014&#8221; (my tagging scheme involves the place name, followed by a MMYY suffix so, Italy October 2014 in the case of this example). You might also make a &#8220;Table of Contents&#8221; note by selecting all of these notes and choosing &#8220;Create Table of Contents&#8221;. You then end up with a nice single note that has links to all the itinerary items like this one:
 
 <figure>
-  <img src="{{ site.baseurl }}/img/en-travel-toc.png" alt="An example of a travel itinerary Table of Contents in Evernote" title="An example of a travel itinerary Table of Contents in Evernote" />
+  <img src="/img/en-travel-toc.png" alt="An example of a travel itinerary Table of Contents in Evernote" title="An example of a travel itinerary Table of Contents in Evernote" />
 </figure>
 An example of a travel itinerary Table of Contents in Evernote is pictured above. Now you can put this table of contents note in your Evernote shortcuts for easy access to ALL of your tip documents, instead of putting every travel document in your shortcuts which would cluttering things up!
 
 <figure>
-  <img src="{{ site.baseurl }}/img/en-calendar-note-link.png" alt="An event with an Evernote link in a shared calendar" title="An event with an Evernote link in a shared calendar" />
+  <img src="/img/en-calendar-note-link.png" alt="An event with an Evernote link in a shared calendar" title="An event with an Evernote link in a shared calendar" />
 </figure>
 
 An example of using note links outside of Evernote: My partner and I have a collection of recipes in a shared notebook that we add to regularly. We also share a household calendar. We plan our dinners out for each week (well, most of the time we at least _try_ to do that) and create calendar events for each dinner. In the URL section for each event, if the recipe is stored in Evernote, we&#8217;ll put a note link to that recipe. This way, no matter who happens to be home that day to cook, she and I both have access to the recipe easily from our Mac or iOS device (Yes, the links even work for Calendar and Evernote in iOS even if you set up the link on the Mac!). The same goes for task managers. I use OmniFocus and regularly use note links to surface important documents associated with an action in Omnifocus.
@@ -28,7 +28,7 @@ An example of using note links outside of Evernote: My partner and I have a coll
 
 You can make links to any file in DEVONthink, just as you can in Evernote, and you can also make Table of Contents notes. The major difference with DEVONthink is that you can link directly to any file imported to, or indexed by, DEVONthink, not just a note containing an attachment. This is a bit more elegant in some respects.
 
-With PDFs you can go one step further and make links to specific PDF pages. One of the major benefits of this is discussed in my previous post [Summarizing Academic Literature with OmniOutliner and DEVONthink]({{ site.baseurl }}/blog/2015/7/17/a85blcjcd1f84oww91896arr04v2g3). As with Evernote, I also use links to DEVONthink documents in Calendar and OmniFocus to surface important files related to events or actions. DEVONthink can even (automatically) make wiki-like links between files in your DEVONthink database, which is pretty special, but perhaps deserving of its own post.
+With PDFs you can go one step further and make links to specific PDF pages. One of the major benefits of this is discussed in my previous post [Summarizing Academic Literature with OmniOutliner and DEVONthink](/blog/2015/7/17/a85blcjcd1f84oww91896arr04v2g3). As with Evernote, I also use links to DEVONthink documents in Calendar and OmniFocus to surface important files related to events or actions. DEVONthink can even (automatically) make wiki-like links between files in your DEVONthink database, which is pretty special, but perhaps deserving of its own post.
 
 ### Evernote has a web clipper {#evernotehasawebclipper}
 
@@ -47,7 +47,7 @@ Evernote has a feature called &#8220;Context&#8221; (formerly &#8220;Related Not
 DEVONthink has what they refer to as an &#8220;Artificial Intelligence&#8221; engine that, among other things, serves two functions. One, &#8220;Classify&#8221;: It analyzes the contents of the currently open database and suggests which folders the selected file belongs in. For me, this is especially helpful when I have just added a whole pile of new journal articles to my database of academic literature. Instead of dwelling on where to put each one, the AI makes some suggestions that, in general are solid fits. One stroke of the keyboard shortcut and that article is filed away in the appropriate folder in DEVONthink.
 
 <figure>
-  <img src="{{ site.baseurl }}/img/dt-see-also-classify.png" alt="The right hand drawer shows suggestions for where this article should be sorted. The lower half of the drawer suggests related content" title="The right hand drawer shows suggestions for where this article should be sorted. The lower half of the drawer suggests related content." />
+  <img src="/img/dt-see-also-classify.png" alt="The right hand drawer shows suggestions for where this article should be sorted. The lower half of the drawer suggests related content" title="The right hand drawer shows suggestions for where this article should be sorted. The lower half of the drawer suggests related content." />
 </figure>
 
 Second, &#8220;See Also&#8221;: DEVONthink suggests other files that might be related to the one you currently have selected, as shown in the above image. When you have a large library of PDFs like I do, it can be very nice to have DEVONthink suggest a slew of related articles, allowing you to easily go down a bit of a literature-reviewing rabbit hole. More about how this set of features works can be found on DEVONtechnologies&#8217; [write up](http://www.devontechnologies.com/technology.html).

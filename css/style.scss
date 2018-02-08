@@ -153,6 +153,7 @@ img.avatar  {
     height: 200px;
     border-radius: 50%;
   	display: block;
+  	margin-top: 30px;
   	margin-right: auto;
   	margin-left: auto;
 }
@@ -398,7 +399,7 @@ pre {
   text-indent: 2px;
 }
 .postContent {
-  padding-top: 3.5em;
+  padding-top: 2em;
   // text-align: center;
 }
 .postDate {
@@ -429,7 +430,6 @@ pre {
   text-indent: 3px;
   font-size: 20px;
   padding-bottom: .2em;
-
 }
 
 .postExt p, li {
@@ -641,6 +641,7 @@ pre {
   color: $grey-color;
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: .2em;
 }
 .post-link {
   display: block;
@@ -653,6 +654,20 @@ pre {
   margin-bottom: 0;
 }
 .post-title {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-indent: 3px;
+  font-size: 20px;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  @include media-query($on-laptop) {
+    font-size: 20px;
+    }
+}
+  
+/**ORIGINAL .post-title class style
   padding-top: 1em;
   padding-bottom: 0;
   font-size: 20px;
@@ -661,8 +676,11 @@ pre {
   font-weight: 400;
   @include media-query($on-laptop) {
     font-size: 20px;
+
   }
 }
+*/
+
  .post-title a {
    color: #111 !important;
  }
@@ -696,6 +714,22 @@ pre {
   text-align: center;
   background: #eee;
   padding: 10px;
+}
+
+.footnotes {
+border-top: 1px solid $grey-color;
+}
+
+.footnotes ol {
+padding-top: 10px;
+font-size: 14px;
+width: 75%;
+text-align: center;
+margin: auto;
+}
+
+.footnotes p {
+font-size: 16px;
 }
 
 .pagination {

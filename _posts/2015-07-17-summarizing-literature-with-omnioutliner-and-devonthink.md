@@ -15,14 +15,14 @@ To begin I need to explain a little bit about how I organize my academic literat
 I then set DEVONthink on my Mac to &#8220;index&#8221; the root directory that contains all of these subject folders and their contents. In DEVONthink parlance, to &#8220;index&#8221; is in contrast to &#8220;importing&#8221;. _Importing_ into DEVONthink means that files are kept in special DEVONthink databases that are not readily readable outside of DEVONthink, and so works well if you don&#8217;t need regular, easy access to these files on outside of DEVONthink ([DEVONthink Server](https://player.vimeo.com/video/49445176?title=0&byline=0&portrait=0&autoplay=0), included as part of the Pro Office version, however, could work for some use cases though). _Indexing_, on the other hand, allows you to reference files as they live in your computer&#8217;s file system. This means I can have my PDFs in folders in Dropbox, and still view them in DEVONthink and take advantage of various organizational and search features in DEVONthink. So in DEVONthink, I end up with a listing of all those subject matter directories and their PDF contents:
 
 <figure>
-  <img src="{{site.baseurl}}/img/dtpo-root-dir.png" alt="DEVONthink Pro Office showing the root directory with all of roughly organized folders" title="DEVONthink Pro Office showing the root directory with all of roughly organized folders">
+  <img src="/img/dtpo-root-dir.png" alt="DEVONthink Pro Office showing the root directory with all of roughly organized folders" title="DEVONthink Pro Office showing the root directory with all of roughly organized folders">
   <figcaption class="post-img-cap">
     DEVONthink Pro Office showing the root directory with all of roughly organized folders
   </figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/img/dtpo-tags.png" alt="Tags in DEVONthink Pro Office" title="Tags in DEVONthink Pro Office">
+  <img src="/img/dtpo-tags.png" alt="Tags in DEVONthink Pro Office" title="Tags in DEVONthink Pro Office">
   <figcaption class="post-img-cap">
     Tags in DEVONthink Pro Office
   </figcaption>
@@ -49,7 +49,7 @@ Now that we have our files in DEVONthink I&#8217;ll outline the workflow. Essent
   7. Return to your outline, add the link as a &#8220;note&#8221; for the quote you just pasted (cmd-&#8216;) with the page number in parentheses for your reference.
 
 <figure>
-  <img src="{{site.baseurl}}/img/omnioutliner-outline-example.png" alt="Early stages, not much paraphrased content in this example, but it should convey the idea" title="Early stages, not much paraphrased content in this example, but it should convey the idea" />
+  <img src="/img/omnioutliner-outline-example.png" alt="Early stages, not much paraphrased content in this example, but it should convey the idea" title="Early stages, not much paraphrased content in this example, but it should convey the idea" />
   <figcaption class="post-img-cap">
     Early stages, not much paraphrased content in this example, but it should convey the idea
   </figcaption>
@@ -69,7 +69,7 @@ If you&#8217;ve been diligent with your paraphrasing, if you&#8217;ve made sure 
 I generally keep my OmniOutliner-created files around forever since they are great reference material. It is also easy to copy-and-paste nodes or entire trees into other OmniOutliner documents if I&#8217;m in need of it in another OmniOutliner document. You might be asking why I put the Page Links into a &#8220;note&#8221; for each node. Having them as a &#8220;note&#8221; has two important benefits: First, it ensure that the link and the quoted passage are inseparable, so you never end up with orphan quotes. The second benefit is that notes can easily be hidden and shown, individually or en masse. This helps clear up the clutter and improve the readability of the outline.
 
 <figure>
-  <img src="{{site.baseurl}}/img/omnioutliner-content-pane.png" alt="The Contents pane in OmniOutliner allows you to focus on one particular section."/>
+  <img src="/img/omnioutliner-content-pane.png" alt="The Contents pane in OmniOutliner allows you to focus on one particular section."/>
   <figcaption class="post-img-cap">
     The &#8220;Contents&#8221; pane in OmniOutliner allows you to focus on one particular section.
   </figcaption>
