@@ -4,7 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <!-- First line is default line, second line includes variables for linkedlist style posts -->
+    <!-- First line is default line for template which I've commented out. If issue with formatting linked posts, restore this line. Second line includes variables for linkedlist style posts --> 
     <!-- <h1 class="post-title" itemprop="name headline"><a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a></h1> -->
     <div class="post-title" itemprop="name headline"><a class="postLink" href="{% if page.link %}{{ page.link }}{% else %}{{ page.url }}{% endif %}">{{ page.title }} {% if page.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></div>
   <center>

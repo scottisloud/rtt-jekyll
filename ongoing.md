@@ -1,5 +1,6 @@
 ---
 layout: page
+nav: true
 title : Ongoing
 #tagline: My ongoing projects
 permalink: /ongoing/

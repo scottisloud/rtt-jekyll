@@ -15,7 +15,7 @@ gem "jekyll"
 gem "minima"
 
 # this is the bundle for pagination
-gem "jekyll-paginate"
+gem "jekyll-paginate-v2"
 
 # this is for integrating twitter timelines and tweets from Twitter's API
 gem 'jekyll-twitter-plugin'

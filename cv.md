@@ -1,4 +1,5 @@
 ---
+nav: true
 layout: page
 title: Curriculum Vitae
 permalink: /cv/

@@ -13,10 +13,14 @@ baseurl: # the subpath of your site, e.g. /blog
 url: "https://scottlougheed.com" # the base hostname & protocol for your site
 twitter_username: scottisloud
 github_username:  scottisloud
-paginate: 15
+pagination:
+ enabled: true
+ per_page: 15
+ sort_reverse: true
+ permalink: '/page:num/'
 # Build settings
 markdown: kramdown
 kramdown:
   parse_block_html: false
   #html_to_native: true
-plugins: [jekyll-paginate, jekyll-twitter-plugin]
+plugins: [jekyll-paginate-v2, jekyll-twitter-plugin]
