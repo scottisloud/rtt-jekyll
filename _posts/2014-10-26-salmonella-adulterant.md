@@ -4,13 +4,13 @@ title: Salmonella, Adulterant?
 date: 2014-10-26T12:48:47+00:00
 author: scottisloud
 layout: post
-guid: http://scottlougheed.com/2014/10/26/20141026i7hwyj3mjkgl9sl0k9pveii9prcbfx/
+guid: https://scottlougheed.com/2014/10/26/20141026i7hwyj3mjkgl9sl0k9pveii9prcbfx/
 permalink: /2014/10/26/20141026i7hwyj3mjkgl9sl0k9pveii9prcbfx/
-link: http://feeds.lexblog.com/~r/foodsafetynews/mRcs/~3/3T7h3RC28-4/
+link: https://feeds.lexblog.com/~r/foodsafetynews/mRcs/~3/3T7h3RC28-4/
 structured_content:
   - '{"oembed":{},"overlay":true}'
 categories:
-  - 
+  -
 tags:
   - Adulterant
   - FSIS

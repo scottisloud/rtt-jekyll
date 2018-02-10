@@ -4,7 +4,7 @@ title: The new home of scottlougheed.com
 date: 2014-10-25T20:10:41+00:00
 author: scottisloud
 layout: post
-guid: http://scottlougheed.com/2014/10/25/20141025the-new-home-of-scottlougheedcom/
+guid: https://scottlougheed.com/2014/10/25/20141025the-new-home-of-scottlougheedcom/
 permalink: /2014/10/25/20141025the-new-home-of-scottlougheedcom/
 
 ---
