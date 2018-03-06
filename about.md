@@ -9,7 +9,7 @@ permalink: /about/
 
 ### Scott Lougheed
 {: style="text-align: center;"}
-I am an environmental social scientist. My primary interests lie in two domains: Waste and its governance; and the political-economics and biopolitics of the food system. I am currently a postdoctoral scholar in the Department of Geography and Urban Planning at the University of Toronto. I am also a visiting scholar in the department of Agricultural Economics, Sociology, and Education at the Pennsylvania State University.
+I am an environmental social scientist. My primary interests lie in two domains: Waste and its governance; and the political-economics and biopolitics of the food system. I am currently a postdoctoral scholar in the Department of Geography and  Planning at the University of Toronto. I am also a visiting scholar in the department of Agricultural Economics, Sociology, and Education at the Pennsylvania State University.
 
 I earned my PhD from the School of Environmental Studies at Queen’s University, Kingston. I also hold Master's (Queen's University) and Bachelor's (University of Victoria) degrees in Sociology.
 
