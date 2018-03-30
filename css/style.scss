@@ -3,10 +3,10 @@
 ---
 @charset "utf-8";
 
+
+
 // Our variables
 $base-font-family: "Mukta Vaani", Helvetica, Arial, sans-serif;
-$post-font-family:  "Source Sans Pro", Helvetica, Arial, sans-serif;
-$site-descript-font-family:  "Josefin Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -43,11 +43,54 @@ $on-laptop:        800px;
     }
 }
 
+//add a condition so small displays show tidier menu
+@media (max-width: 680px) {
+  a.page-link {
+    display: table;
+    font-size: 16px;
+    padding: 0px 0px 5px 0;
+    white-space: nowrap;
+  }
+  img.logo {
+    width: 70px !important;
+    height: 70px !important;
+    padding-bottom: 1px !important;
+  }
+  .site-title {
+    font-size: 26px !important;
+  }
+  .site-description {
+    font-size: 16px !important;
+  }
+
+//add stripped down pagination links
+  .pagination {
+    font-size: 16px !important;
+  }
+  .pagination .page_number {
+    visibility: hidden;;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 1px;
+  }
+  .pagination .previous {
+    padding: 0;
+    margin-left: 5%;
+  }
+  .pagination .next {
+    padding: 0;
+    margin-right: 5%;
+  }
+
+
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "base",
-    "layout",
-    "syntax-highlighting"
+        "base",
+        "layout",
+        "syntax-highlighting"
 ;
 
 
@@ -61,6 +104,8 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+
+
 /**
  * Basic styling
  */
@@ -69,6 +114,11 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
 }
 
 /**
@@ -84,7 +134,7 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-.post-content img {
+img {
     max-width: 100%;
     vertical-align: middle;
     display: block;
@@ -92,14 +142,13 @@ ul, ol, dl, figure,
 }
 
 img.logo {
-	width: 100px;
-	height: 100px;
-	margin-top: 20px;
-	margin-bottom: 0;
+  width: 140px;
+	height: 140px;
+  padding: 20px;
 }
 
 
-img.avatar {
+img.avatar  {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -112,6 +161,20 @@ img.avatar {
 /**
  * Figures
  */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+    font-weight: bolder;
+    background: #eee;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+
 
 /**
  * Lists
@@ -120,12 +183,23 @@ ul, ol {
     margin-left: $spacing-unit;
 }
 
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
+
+
 
 /**
  * Links
@@ -148,7 +222,7 @@ a {
       text-decoration: none;
 
       }
-    &.nav-link{
+    &.page-link{
       &:hover {
           color: $text-color;
           border-bottom: 1px dotted black ;
@@ -193,6 +267,31 @@ blockquote {
 
 
 
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
 
 
 
@@ -222,6 +321,7 @@ blockquote {
  * Clearfix
  */
 %clearfix {
+
     &:after {
         content: "";
         display: table;
@@ -229,8 +329,27 @@ blockquote {
     }
 }
 
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
 .post {
-  font-family: $post-font-family;
+  font-family: "Source Sans Pro";
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -239,7 +358,9 @@ blockquote {
 .home{
   padding-bottom: 5em;
 }
-
+.download {
+  padding: 10px;
+}
 .authorKeyword {
   text-transform: uppercase;
   font-size: 14px;
@@ -267,15 +388,24 @@ blockquote {
   letter-spacing: 2px;
   text-indent: 2px;
 }
-
+.example {
+  font-family: 'Menlo';
+  padding: 10px;
+}
+.manual {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
 .postContent {
   padding-top: 2em;
-
+  // text-align: center;
 }
 .postDate {
   float: left;
   text-transform: uppercase;
-  font-family: $post-font-family;
+  font-family: "Source Sans Pro";
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -309,11 +439,17 @@ blockquote {
 /**
  * Site header
  */
-
+.site-header {
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
 .site-title {
   font-size: 36px;
   font-weight: 100;
-  font-family: $base-font-family;
+  font-family: 'Mukta Vaani', sans-serif;
   text-transform: capitalize;
   font-weight: 500;
   letter-spacing: .05em;
@@ -326,19 +462,21 @@ blockquote {
   font-size: 18px;
   letter-spacing: 2px;
   letter-spacing: .125em;
-  font-family: $site-descript-font-family;
-  text-align: center;
+  font-family: 'Josefin Sans';
 }
-
+.exclamationMark {
+  padding-left: .5em;
+  padding-right: .5em;
+}
 .site-navigation {
   color: #aaa;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-align: center;
-  font-family: $site-descript-font-family;
+  font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: .7em;
+  padding-top: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -347,7 +485,7 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: $base-font-family;
+  font-family: 'Mukta Vaani', sans-serif;
   font-size: 16px;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -355,84 +493,142 @@ blockquote {
 
 .page-tagline {
   font-size: 16px;
-  font-family: $base-font-family;
+  font-family: 'Mukta Vaani', sans-serif;
   color: rgb(170, 170, 170);
   text-transform: lowercase;
   padding-top: 0px;
   margin-top: 0px;
 }
-.nav-link {
+.page-link {
   color: rgb(170, 170, 170);
   margin-left: .5em;
   margin-right: .5em;
 }
 .site-nav {
-  	@include media-query($on-palm) {
-    	position: absolute;
-	    top: 9px;
-    	right: $spacing-unit / 2;
-		background-color: $background-color;
-		border: 1px solid $grey-color-light;
-		border-radius: 5px;
-		text-align: right;
-		.menu-icon {
-			display: block;
-			float: right;
-			width: 36px;
-			height: 26px;
-			line-height: 0;
-			padding-top: 10px;
-			text-align: center;
-			> svg {
-				width: 18px;
-				height: 15px;
-				path {
-				  fill: $grey-color-dark;
-				}
-	    	}
-    	}
-		.nav-link {
-			display: block;
-			padding: 5px 10px;
-			&:not(:last-child) {
-				margin-right: 0;
-			}
-			margin-left: 20px;
-		}
-	}
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+      > svg {
+        width: 18px;
+        height: 15px;
+        path {
+          fill: $grey-color-dark;
+        }
+      }
+    }
+    .trigger {
+      clear: both;
+      display: none;
+    }
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
 }
-
 /**
  * Site footer
  */
- 
 .site-footer {
-	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	border-top: 1px solid $grey-color-light;
-	padding-top: 10px;
-	margin-bottom: 25px;
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
 }
-
 .footer-heading {
-//	font-size: 18px;
-	margin-bottom: $spacing-unit - 30;
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
 }
-
-
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+.small-site-title {
+  font-family: 'Mukta Vaani', sans-serif;
+}
+.footer-col-wrapper {
+  font-size: 15px;
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+.footer-content {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+.footer-col-1 {
+  width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+  width: calc(60% - (#{$spacing-unit} / 2));
+}
+// .footer-col-2 {
+//   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+//   width: calc(20% - (#{$spacing-unit} / 2));
+// }
+.footer-col-3 {
+  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+  width: calc(40% - (#{$spacing-unit} / 2));
+}
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
+  }
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
+}
 /**
  * Page content
  */
- 
 .page-content {
   padding: 0;
 }
-
 .page-heading {
   font-size: 20px;
 }
-
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -440,7 +636,6 @@ blockquote {
     margin-bottom: $spacing-unit;
   }
 }
-
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
@@ -452,14 +647,12 @@ blockquote {
   display: block;
   font-size: 24px;
 }
-
 /**
  * Posts
  */
 .post-header {
   margin-bottom: 0;
 }
-
 .post-title {
   font-weight: 400;
   text-align: center;
@@ -474,6 +667,48 @@ blockquote {
     }
 }
   
+/**ORIGINAL .post-title class style
+.post-title {
+  padding-top: 1em;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  @include media-query($on-laptop) {
+    font-size: 20px;
+
+  }
+}
+*/
+
+ .post-title a {
+   color: #111 !important;
+ }
+.post-content {
+  margin-bottom: $spacing-unit;
+  p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 32px;
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+  h3 {
+    font-size: 26px;
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}
 .post-footer {
   max-width: 80%;
   margin: 0 auto 3em auto;
@@ -504,12 +739,12 @@ font-size: 16px;
   margin: 0 auto;
   max-width: 100%;
   font-size: 1.4em;
-  font-family: $site-descript-font-family;
+  font-family: "Josefin Sans";
   text-transform: uppercase;
   font-weight: 300;
 }
 
-.pagination {
+.pagination .pagenumber {
   padding: 0;
   margin: 0;
 }
@@ -522,88 +757,6 @@ font-size: 16px;
   margin-right: 15%;
 }
 
-//add a condition so small displays show tidier menu
-@media (max-width: 680px) {
-	.logo {
-		width: 70px !important;
-		height: 70px !important;
-		padding-bottom: 20px !important;
-		padding-left: 5%;
-		padding-right: auto;
-		margin-left: 0px;
-		float: left;
-	}
-	.site-title {
-		font-size: 16px !important;
-		text-align: right;
-		padding-top: 20px;
-		padding-left: auto;
-		padding-right: 5%;
-		margin-right: 0px !important;
-		float: right;
-	}
-	.site-description {
-		font-size: 12px !important;
-		max-width: 50% !important;
-		text-align: right;
-		padding-left: auto;
-		padding-right: 5%;
-		margin-right: 0px !important;
-		float: right;
-	}
-	a.nav-link {
-		display: table;
-		font-size: 16px;
-		padding: 0px 0px 5px 0;
-		white-space: nowrap;
-		clear: both;
-	}
-
-	//add stripped down pagination links
-	.pagination {
-		font-size: 16px !important;
-	}
-	.pagination .page_number {
-		visibility: hidden;;
-		padding: 0 !important;
-		margin: 0 !important;
-		font-size: 1px;
-	}
-	.pagination .previous {
-		padding: 0;
-		margin-left: 5%;
-	}
-	.pagination .next {
-		padding: 0;
-		margin-right: 5%;
-	}
-}
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
 
 /**
  * Syntax highlighting styles
