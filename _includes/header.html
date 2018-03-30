@@ -7,12 +7,12 @@
 </div>
 <div class="wrapper">
   <div class="trigger site-navigation">
-    <a class="page-link" href="/">HOME</a>
+    <a class="nav-link" href="/">HOME</a>
 
     {% for sitePage in site.pages %}
     {% if sitePage.nav == true %}
 
-    <a class="page-link" href="{{sitePage.url}}">{{sitePage.title}}</a>
+    <a class="nav-link" href="{{sitePage.url}}">{{sitePage.title}}</a>
 
     {% endif %}
     {% endfor %}
