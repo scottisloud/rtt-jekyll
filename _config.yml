@@ -9,7 +9,7 @@
 title: Recall These Thoughts
 email: info@scottlougheed.com
 description: Inanity from Scott Lougheed, PhD
-baseurl: # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://scottlougheed.com" # the base hostname & protocol for your site
 twitter_username: scottisloud
 github_username:  scottisloud
