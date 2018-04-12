@@ -28,8 +28,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -43,56 +41,12 @@ $on-laptop:        800px;
     }
 }
 
-//add a condition so small displays show tidier menu
-@media (max-width: 680px) {
-  a.page-link {
-    display: table;
-    font-size: 16px;
-    padding: 0px 0px 5px 0;
-    white-space: nowrap;
-  }
-  img.logo {
-    width: 70px !important;
-    height: 70px !important;
-    padding-bottom: 1px !important;
-  }
-  .site-title {
-    font-size: 26px !important;
-  }
-  .site-description {
-    font-size: 16px !important;
-  }
-
-//add stripped down pagination links
-  .pagination {
-    font-size: 16px !important;
-  }
-  .pagination .page_number {
-    visibility: hidden;;
-    padding: 0 !important;
-    margin: 0 !important;
-    font-size: 1px;
-  }
-  .pagination .previous {
-    padding: 0;
-    margin-left: 5%;
-  }
-  .pagination .next {
-    padding: 0;
-    margin-right: 5%;
-  }
-
-
-}
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
     "layout",
     "syntax-highlighting"
 ;
-
 
 /**
  * Reset some basic elements
@@ -313,7 +267,7 @@ blockquote {
 }
 
 .postContent {
-  padding-top: .5em;
+  padding-top: .5em !important;
 
 }
 .postDate {
@@ -588,12 +542,11 @@ font-size: 16px;
 	}
 	.site-description {
 		font-size: 12px !important;
-		max-width: 50% !important;
 		text-align: right;
 		padding-left: auto;
 		padding-right: 5%;
 		margin-right: 0px !important;
-		float: right;
+		clear: right;
 	}
 	a.nav-link {
 		display: table;
