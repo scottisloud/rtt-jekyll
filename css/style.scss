@@ -81,13 +81,15 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-.postContent img {
+.postContent img, .post-content img {
     max-width: 100%;
     vertical-align: middle;
     display: block;
     margin: 0 auto;
 
 }
+
+
 
 img.logo {
 	width: 100px;
