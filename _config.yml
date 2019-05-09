@@ -22,5 +22,5 @@ pagination:
 markdown: kramdown
 kramdown:
   parse_block_html: false
-# destination: ~/Sites/rtt-deploy
+destination: scottlougheed.com
 plugins: [jekyll-paginate-v2, jekyll-twitter-plugin]
