@@ -136,15 +136,15 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 a {
-    color: #cc6600 !important;
+    color: #cc6600 ;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
-    }
+		color: #009CCC ;
+	}
 
     &:hover {
-        color: black !important;
+        color: #006180 ;
         border-bottom: 1px dotted black ;
     }
     &.logo:hover  {
@@ -154,28 +154,27 @@ a {
       }
     &.nav-link{
       &:hover {
-          color: $text-color;
+          color: #006180 ;
           border-bottom: 1px dotted black ;
+      }
+      &:visited {
+      	color: #cc6600 ;
+      }
+      &:visited:hover {
+      	color: #006180 ;
       }
     }
     &.postLink{
-      color: black !important;
+      color: black ;
       &:hover {
           border-bottom: 1px dotted black ;
       }
 
-      &:visited {
-          color: "crimson" !important;
-      }
     }
     &.post-title-link{
-      color: black !important;
+      color: black ;
       &:hover {
-          border-bottom: 1px dotted black !important ;
-      }
-
-      &:visited {
-          color: "crimson" !important;
+          border-bottom: 1px dotted black  ;
       }
     }
 }
@@ -270,7 +269,7 @@ blockquote {
 }
 
 .postContent {
-  padding-top: .5em !important;
+  padding-top: .5em ;
 
 }
 .postDate {
@@ -363,7 +362,7 @@ blockquote {
   margin-top: 0px;
 }
 .nav-link {
-  color: rgb(170, 170, 170);
+  color: #cc6600;
   margin-left: .5em;
   margin-right: .5em;
 }
@@ -526,8 +525,8 @@ font-size: 16px;
 //add a condition so small displays show tidier menu
 @media (max-width: 680px) {
 	.logo {
-		width: 70px !important;
-		height: 70px !important;
+		width: 70px ;
+		height: 70px ;
 		padding-bottom: 30px;
 		padding-left: 5%;
 		padding-right: auto;
@@ -535,20 +534,20 @@ font-size: 16px;
 		float: left;
 	}
 	.site-title {
-		font-size: 16px !important;
+		font-size: 16px ;
 		text-align: right;
 		padding-top: 20px;
 		padding-left: auto;
 		padding-right: 5%;
-		margin-right: 0px !important;
+		margin-right: 0px ;
 		float: right;
 	}
 	.site-description {
-		font-size: 12px !important;
+		font-size: 12px ;
 		text-align: right;
 		padding-left: auto;
 		padding-right: 5%;
-		margin-right: 0px !important;
+		margin-right: 0px ;
 		clear: right;
 	}
 	a.nav-link {
@@ -561,12 +560,12 @@ font-size: 16px;
 
 	//add stripped down pagination links
 	.pagination {
-		font-size: 16px !important;
+		font-size: 16px ;
 	}
 	.pagination .page_number {
 		visibility: hidden;;
-		padding: 0 !important;
-		margin: 0 !important;
+		padding: 0 ;
+		margin: 0 ;
 		font-size: 1px;
 	}
 	.pagination .previous {
