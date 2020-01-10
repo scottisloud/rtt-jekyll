@@ -48,6 +48,14 @@ $on-laptop:        800px;
     "syntax-highlighting"
 ;
 
+
+@include media-query($on-palm) {
+	.site-navigation {
+	  margin-top: 65px;
+
+	}
+}
+
 /**
  * Reset some basic elements
  */
@@ -342,6 +350,7 @@ blockquote {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 .page-title {
   text-transform: uppercase;
