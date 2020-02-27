@@ -22,5 +22,6 @@ pagination:
 markdown: kramdown
 kramdown:
   parse_block_html: false
+  syntax_highlighter: rouge
 # destination: scottlougheed.com
 plugins: [jekyll-paginate-v2, jekyll-twitter-plugin]
