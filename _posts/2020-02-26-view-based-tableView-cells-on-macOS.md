@@ -22,7 +22,7 @@ A note: I am a very novice programmer and am self-taught. As such, my approach m
 
 To begin, open a new Swift language project for macOS in Xcode. I'll walk us through the process to build the custom table of users in the image above. 
 
-## Creating our Classes
+## Creating Our Classes
 Let's start by creating the necessary classes and any additional files we might need. 
 ### ViewController()
 First we need to have our `ViewController()` class conform to `NSTableViewDelegate` and `NSTableViewDataSource`.
