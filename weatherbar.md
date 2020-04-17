@@ -5,7 +5,7 @@ permalink: /weatherbar/
 nav: false
 #tagline: "Fast, accurate, and private weather at your finger tips"
 ---
-  
+# WeatherBar Beta Builds
   
 ## 0.0.4-a2
 <a href="{{site.baseurl}}/files/weatherbar-004a2.zip">Download</a>
@@ -19,6 +19,8 @@ There is also some doubt about the future of WeatherBar. The weather service Wea
 
 
 <hr />
+
+---
 ## 0.0.4-a1
 <a href="{{site.baseurl}}/files/weatherbar-004a1.zip">Download</a>
 ### Known Issues
