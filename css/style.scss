@@ -528,7 +528,12 @@ blockquote {
 	max-width: 80%;
 	margin: 0 auto 3em auto;
 	text-align: center;
-	background: #eee;
+	@media (prefers-color-scheme: light) {
+		background: #eee;
+	}
+	@media (prefers-color-scheme: dark) {
+		background: #222;
+	}
 	padding: 10px;
 }
 
