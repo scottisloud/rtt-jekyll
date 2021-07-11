@@ -2,7 +2,7 @@
 layout: page
 title: WeatherBar
 permalink: /weatherbar/
-nav: false
+nav: true
 #tagline: "Fast, accurate, and private weather at your finger tips"
 ---
 # WeatherBar Beta Builds
