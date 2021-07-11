@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Encryption Dungeion
-permalink: /dungeon/
+title: Encryption Dungeon
+permalink: /dnd/
 nav: false
-tagline: Some slaes engineers and a professor come together to solve a mystery!
+#tagline: Some sales engineers and a professor come together to solve a mystery!
 ---
-
 # Welcome to the Encryption Dungeon
 
 ## Introduction
@@ -67,9 +66,7 @@ We’ll start with a “Session 0”, where we all come together to build our ch
 
 ## Things to read
 I strongly encourage you to read the following resource to get familiar with the game and character options:
-https://media.wizards.com/2018/dnd/downloads/DnD_BasicRules_2018.pdf
-
-(This is also available nearly verbatim in a more web-friendly form here: https://www.dndbeyond.com/sources/basic-rules)
+- [Dungeons and Dragons, Basic Rules](https://media.wizards.com/2018/dnd/downloads/DnD_BasicRules_2018.pdf) (This is also available nearly verbatim in a more web-friendly form [here](https://www.dndbeyond.com/sources/basic-rules))
 
 For now I’d start with:
 - Introduction
@@ -82,13 +79,13 @@ I’d also suggest at least glancing at chapters in Part 2 (“Playing the Game�
 
 ## Things you’ll need
 ### Dice
-The Free Option
+#### The Free Option
 - Roll20, our virtual tabletop, has dice-rolling functionality built in, so you can rely on that if you’d like. 
 
-The Fancy Option
+#### The Fancy Option
 - [Dice by PCalc](https://www.pcalc.com/dice/) is a GREAT dice rolling app for iOS, iPadOS and macOS. I personally find this more satisfying than Roll20’s built in dice
 
-The Physical Option
+#### The Physical Option
 - You can buy dice sets from wherever. This can be fun if you’re super interested in collecting fun dice colours and stuff. That said, between Roll20 and Dice by PCalc, I find I rarely need to use physical dice. 
 
 ### Roll20 Account
