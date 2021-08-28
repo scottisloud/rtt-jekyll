@@ -1,0 +1,2 @@
+I"�<p>I’m currently working on a small Mac menu-bar based application for myself. I wanted to present information in an <code class="language-plaintext highlighter-rouge">NSTableView</code>, but the standard cell-based row cell offered by <code class="language-plaintext highlighter-rouge">NSTableView</code> on macOS didn’t offer me enough flexibility for my needs. The basic cell-based <code class="language-plaintext highlighter-rouge">NSTableView</code> looks similar to this:</p>
+:ET

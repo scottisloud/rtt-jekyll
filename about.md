@@ -10,8 +10,12 @@ permalink: /about/
 ### Scott Lougheed
 {: style="text-align: center;"}
 
-#### As an academic:
-I am an environmental social scientist. Most recently I was a postdoctoral fellow in Geography and Planning at the University of Toronto. Prior to that I was a visiting scholar in the department of Agricultural Economics, Sociology, and Education at the Pennsylvania State University. I earned my PhD from the School of Environmental Studies at Queen’s University, Kingston. I also hold Master's (Queen's University) and Bachelor's (University of Victoria) degrees in Sociology.
+#### Currently
+I am a Sales Engineer on the Sales Enablement team at [1Password](https://1password.com). Formerly I was a Customer Onboarding Specialist in Customer Success at 1Password. 
+
+
+#### Past Life
+I am an environmental social scientist, though I am no longer employed in academia or as a researcher. Most recently I was a postdoctoral fellow in Geography and Planning at the University of Toronto. Prior to that I was a visiting scholar in the department of Agricultural Economics, Sociology, and Education at the Pennsylvania State University. I earned my PhD from the School of Environmental Studies at Queen’s University, Kingston. I also hold Master's (Queen's University) and Bachelor's (University of Victoria) degrees in Sociology.
 
 My primary interests lie in two domains: environmental governance, particularly with respect to waste and consumption; and the biopolitics of the food system.
 

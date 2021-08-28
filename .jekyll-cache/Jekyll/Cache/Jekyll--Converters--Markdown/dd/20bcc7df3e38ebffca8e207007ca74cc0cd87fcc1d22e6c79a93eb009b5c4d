@@ -1,0 +1,152 @@
+I";<p>I’m currently working on a small Mac menu-bar based application for myself. I wanted to present information in an <code class="language-plaintext highlighter-rouge">NSTableView</code>, but the standard cell-based row cell offered by <code class="language-plaintext highlighter-rouge">NSTableView</code> on macOS didn’t offer me enough flexibility for my needs. The basic cell-based <code class="language-plaintext highlighter-rouge">NSTableView</code> looks similar to this:</p>
+
+<p><img src="/img/classic-table.png" alt="Classic Table View" />
+This is a super clear and useful way to display lots of data in a sortable table. For my project I needed something a bit more aesthetically pleasing for use in a context where there would always be a fixed number of table cells in a fixed order.</p>
+
+<p>I needed to display multiple, differently-sized and formatted <code class="language-plaintext highlighter-rouge">NSLabels</code> and <code class="language-plaintext highlighter-rouge">NSImages</code>. View-based <code class="language-plaintext highlighter-rouge">NSTableViews</code> are perfect for this, allowing for something like this crude example:</p>
+
+<p><img src="/img/view-based-table.png" alt="Custom View-based Table" />
+On iOS this is accomplished by creating static cells, which is not only fairly straightforward, but also the subject of dozens of reasonably current tutorials and Stack Overflow posts.</p>
+
+<p>Accomplishing this in AppKit is not nearly as straightforward (a truism), and all but one of the examples I could find online were around a decade old and written in Objective-C (also a truism about Mac development). There was a single example (the link to which I have since lost, and it is hard to find!) in Swift, albeit in Swift 3, since which time there have been numerous changes to the Swift language and to how Interface Builder works in Xcode.</p>
+
+<p>Nevertheless, between the lone Swift example and a few ancient Objective-C examples I was able to get it sorted out and create a custom view-based NSTableView. My struggle inspired me to write an updated tutorial on the process in Swift 5.</p>
+
+<p>A note: I am a very novice programmer and am self-taught. As such, my approach may be clumsy and at times downright wrong. I’m happy to receive knowledgable and kind feedback so I can improve the tutorial.</p>
+
+<p>To begin, open a new Swift language project for macOS in Xcode. I’ll walk us through the process to build the custom table of users in the image above.</p>
+
+<h2 id="creating-our-classes">Creating Our Classes</h2>
+<p>Let’s start by creating the necessary classes and any additional files we might need.</p>
+<h3 id="viewcontroller">ViewController()</h3>
+<p>First we need to have our <code class="language-plaintext highlighter-rouge">ViewController()</code> class conform to <code class="language-plaintext highlighter-rouge">NSTableViewDelegate</code> and <code class="language-plaintext highlighter-rouge">NSTableViewDataSource</code>.</p>
+
+<p>Let’s also make a property of our <code class="language-plaintext highlighter-rouge">ViewController()</code> class containing some data to display. We’ll use a dictionary here with <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">role</code> keys.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">users</span> <span class="o">=</span> <span class="p">[[</span><span class="s">"name"</span><span class="p">:</span><span class="s">"Scott Lougheed"</span><span class="p">,</span> <span class="s">"role"</span><span class="p">:</span><span class="s">"CEO"</span><span class="p">],</span> <span class="p">[</span><span class="s">"name"</span><span class="p">:</span><span class="s">"Ari Khari"</span><span class="p">,</span> <span class="s">"role"</span><span class="p">:</span><span class="s">"President"</span><span class="p">],</span> <span class="p">[</span><span class="s">"name"</span><span class="p">:</span><span class="s">"Tandi Lori"</span><span class="p">,</span> <span class="s">"role"</span><span class="p">:</span><span class="s">"Leader"</span><span class="p">]]</span>
+</code></pre></div></div>
+
+<h3 id="customtablecell">CustomTableCell()</h3>
+<p>Now add a new Cocoa class file.</p>
+
+<p><img src="/img/new-cocoa-class.png" alt="Create a new Cocoa class" /></p>
+
+<p>Name the file CustomTableCell (obviously this could be whatever you like for your own project) and make it a subclass of NSTableCellView.</p>
+
+<p><img src="/img/name-new-cocoa-class.png" alt="name cocoa class and subclass" /></p>
+
+<p>We don’t need to do anything with this file yet, to let’s move on to our interface.</p>
+
+<h2 id="building-the-interface">Building the Interface</h2>
+<h3 id="setting-up-the-table">Setting up the table</h3>
+<p>Switch to Main.storyboard and add a Table View to the existing view. Resize the Table View to fill the entire area. For this example we only want one column that will span the entire table width.</p>
+
+<p>In the Document Outline, select the Table View (make sure you haven’t accidentally selected the Bordered Scroll View or any other superviews).</p>
+
+<p><img src="/img/select-tableview.png" alt="Select Table View in IB" /></p>
+
+<p>In the Table View’s Attributes Inspector:</p>
+<ul>
+  <li>Make sure Content Mode is set to View Based and the number of columns is set to 1 and uncheck the “Headers” option.</li>
+  <li>Whether we want them or not, I like to enable “Alternating Rows” while I’m working on layout in Interface Builder because it’s easier to see the hight of each row and the position of elements within, so go ahead and check that box while we’re here. We can always un-check this after laying out our cell if we prefer.</li>
+</ul>
+
+<p>While we have our Table View selected:</p>
+<ul>
+  <li>ctrl-drag from the Table View in the Document Outline to View Controller and set the View Controller as the Table View’s Delegate and Data Source.</li>
+</ul>
+
+<p><img src="/img/delegate-and-data-source.png" alt="Setting the table's delegate and data source" /></p>
+
+<p>Finally, select the size inspector for the Table and set the Row Size Style to Custom and the row height to 60.</p>
+
+<p>Back in the Document Outline, select the Table Cell View. In the Identity Inspector:</p>
+<ul>
+  <li>Set the Class to our previously-created CustomTableCell class.</li>
+  <li>Set the Identifier to userCell so we can address it from our ViewController class.
+<img src="/img/table-cell-identity.png" alt="Identity Inspector for Table Cell View" /></li>
+</ul>
+
+<p>Select the Size Inspector:</p>
+<ul>
+  <li>Set the Height to 60. This won’t impact the interface at build time but does make the row in Interface Builder match the row height we set for the Table View, which makes placing our UI elements much easier.</li>
+</ul>
+
+<p>We should now have a table in Interface Builder that looks roughly like this:
+<img src="/img/ib-table.png" alt="table in interface builder" /></p>
+
+<h3 id="building-our-ui">Building our UI</h3>
+<p>Select the existing label that says “Table View Cell” and delete it. 
+From the Library (cmd-shift-L), place <em>as a child of the Table Cell View</em> an Image View, two labels, and a Push Button. You’ll know you’ve placed these correctly if they appear as a child of the Table Cell View in the Document Outline. 
+Select the image:</p>
+<ul>
+  <li>Set the height and width constraints to be 50.</li>
+  <li>Set a constraint so the leading edge is be 0 points from the leading edge of the superview.</li>
+  <li>In the Attributes Inspector, set the Image attribute to be NSUser (or whatever image you like!).</li>
+</ul>
+
+<p>Select one of the labels:</p>
+<ul>
+  <li>Set a constraint so the leading edge is 5 points from the trailing edge of the image view.</li>
+  <li>0 pts from the top of the superview.</li>
+  <li>Trailing edge is 25 pts from the trailing edge of the superview.</li>
+  <li>In the Attributes Inspector, set the title to “User Name” and the found to System Bold 15.</li>
+</ul>
+
+<p>Select the other label and position it just below the User Name label.</p>
+<ul>
+  <li>Change the title to “Role”.</li>
+  <li>Set the leading edge to align with the leading edge of the User Name label.</li>
+  <li>Set the top edge to be 8pts from the bottom of the User Name label.</li>
+</ul>
+
+<p>Select the push button:</p>
+<ul>
+  <li>In the Attribute Inspector, set the title to “Email User”</li>
+  <li>In the Size Inspector, set the trailing space to be 10pts from the trailing edge of the Superview and 5pts from the bottom.</li>
+</ul>
+
+<p>Return to the Role label one last time and set a constraint of 8pts from the trailing edge of the label to the leading edge of the Email User button.</p>
+
+<h3 id="creating-outlets-and-actions">Creating Outlets and Actions</h3>
+<p>Using the assistant editor, create an outlet for each label (userNameLabel and roleLabel, respectively) in CustomTableCell.  Create an action for the Button, which we’ll just leave as a stub. Your <code class="language-plaintext highlighter-rouge">CustomTableCell()</code> class should look like this:</p>
+
+<p><img src="/img/custom-cell-code.png" alt="Custom table cell code" />
+For our purposes we don’t need to create an outlet for the table in our View Controller but don’t forget to do this if you’re going to be doing anything serious with your table.</p>
+
+<h2 id="configuring-our-tableview">Configuring Our TableView</h2>
+<p>Time to get back to code. Switch to your ViewController file. We need two methods in here to get our TableView up and running: <code class="language-plaintext highlighter-rouge">numberOfRows(in:)</code> and <code class="language-plaintext highlighter-rouge">tableView(_:viewFor:row:)</code>.</p>
+
+<h3 id="numberofrowsin">numberOfRows(in:)</h3>
+<p>This method tells our tableView how many rows to create, and it’s as simple as returing the size of our <code class="language-plaintext highlighter-rouge">users</code> array:</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">func</span> <span class="nf">numberOfRows</span><span class="p">(</span><span class="k">in</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">NSTableView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">users</span><span class="o">.</span><span class="n">count</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="tableview_viewforrow">tableView(_:viewFor:row:)</h3>
+
+<p>This is a bit more elaborate, here’s the code, with explanations below.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">NSTableView</span><span class="p">,</span> <span class="n">viewFor</span> <span class="nv">tableColumn</span><span class="p">:</span> <span class="kt">NSTableColumn</span><span class="p">?,</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSView</span><span class="p">?</span> <span class="p">{</span>
+        <span class="k">guard</span> <span class="k">let</span> <span class="nv">userCell</span> <span class="o">=</span> <span class="n">tableView</span><span class="o">.</span><span class="nf">makeView</span><span class="p">(</span><span class="nv">withIdentifier</span><span class="p">:</span> <span class="kt">NSUserInterfaceItemIdentifier</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="s">"userCell"</span><span class="p">),</span> <span class="nv">owner</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span> <span class="k">as?</span> <span class="kt">CustomTableCell</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="kc">nil</span> <span class="p">}</span>
+        
+        <span class="n">userCell</span><span class="o">.</span><span class="n">userNameLabel</span><span class="o">.</span><span class="n">stringValue</span> <span class="o">=</span> <span class="n">users</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="s">"name"</span><span class="p">]</span> <span class="p">??</span> <span class="s">"unknown user"</span>
+        <span class="n">userCell</span><span class="o">.</span><span class="n">roleLabel</span><span class="o">.</span><span class="n">stringValue</span> <span class="o">=</span> <span class="n">users</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="s">"role"</span><span class="p">]</span> <span class="p">??</span> <span class="s">"unknown role"</span>
+        
+        <span class="k">return</span> <span class="n">userCell</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<p>The first line create a new userCell and typecasts it as our CustomTableCell (if you wanted to use a standard cell, you would cast this as an NSTableCellView). You’ll recall we set the Identifier of our TableCellView to “userCell”. Make sure you pass <code class="language-plaintext highlighter-rouge">NSUserInterfaceItemIdentifier(rawValue: "userCell")</code> as the argument to the makeView method call. This seems like a bit of a hacky way to make things work so if you know of a way to avoid this, please get in touch! (Remember when I said I was a total novice!?)</p>
+
+<p>The second and third lines seed the labels with the appropriate data from our array of users using <code class="language-plaintext highlighter-rouge">row</code> as the subscript to access each array index based on its position in the table (e.g., row 0 accesses the 0th index in the user array). We further subscript it using the dictionary key for the value we want to display.</p>
+
+<p>At this point you can use the <code class="language-plaintext highlighter-rouge">!</code> operator to force unwrap these values. Even though we’re all-but guaranteed to not get a <code class="language-plaintext highlighter-rouge">nil</code> back in this particular context, I’ve still chosen the less risky option of using the nil coalescing <code class="language-plaintext highlighter-rouge">??</code> operator to print a string in case for some reason we get <code class="language-plaintext highlighter-rouge">nil</code> back.</p>
+
+<p>The final line returns the userCell to the tableView delegate.</p>
+
+<p>At this point you can run your app and you should see your pretty table with your custom cells!</p>
+
+<p>If you’ve had trouble following these directions or need to check your work please download the <a href="/files/view-based-table.zip">Xcode project files </a>.</p>
+:ET
