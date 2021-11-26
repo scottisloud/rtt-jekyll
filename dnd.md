@@ -7,7 +7,7 @@ nav: false
 ---
 # Welcome to the Encryption Dungeon
 
-## Introduction
+## Introduction 
 This page should hopefully provide you with links to all the resources and things you’ll need to play. 
 
 ### Action Items
