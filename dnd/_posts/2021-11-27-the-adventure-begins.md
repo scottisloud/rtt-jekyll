@@ -4,7 +4,7 @@ title: The Adventure Begins
 
 You are all relatively inexperienced adventurers (being level 1 and all…). Although even an inexperienced adventurer possesses skills and powers that far exceed that of typical residents of the Forgotten Realms (that’s the realm in which our game takes place), among adventurers you are largely un-tested. A bunch of yellow bellies. 
 
-You all met for the first time just two days ago at a tavern in Middlevale. Middlevale is a tiny farming village about 100km east of Candlekeep. Strangers to each other at that time, you had all been travelling in search of some paid adventure and found yourselves in Middlevale for the night. 
+You all met for the first time just two days ago at a tavern in Middlevale. Middlevale is a tiny farming village about 100km east of Candlekeep. Strangers to each other at that time, you had all been travelling independently in search of some paid adventure and found yourselves in Middlevale for the night. 
 
 It was not unusual for an adventurer or two to pass through Middlevale, but with five adventurers all in town at once, this counted as a busy night. In fact, you outnumbered the locals in the tavern. An elderly resident mage who frequents the tavern had spoken to each of you over the course of the evening. To each of you in turn he told you about the severe drought that had beset the town for weeks, killing crops, drying up wells, and generally causing hardship. The rather sparse portions and one drink limit at the tavern suddenly made sense. 
 
