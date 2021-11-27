@@ -25,6 +25,7 @@ defaults:
     values:
       hidden: 'true'
       layout: 'dnd_post'
+      permalink: '/:categories/:title.html'
 # Build settings
 markdown: kramdown
 kramdown:

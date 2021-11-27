@@ -10,4 +10,4 @@ I know my large, devoted audience has been eagerly awaiting updates on my person
 
 I have some decisions to make about the design of website, which was conceived while I was an academic and at a time where seemingly random strings of letters (e.g., `p h d`) held meaning. With that in mind, my massive hoard of valued readers, don't be afraid if you see some minor redecorating going on. 
 
-In the meantime I hope you'll enjoy a tall glass of raw water while listening to a guided "meditation" on one of the eight mindfulness applicatinos you installed on your phone yesterday when decided on a whim that you'd like to seek an elevated state of enlightenment.
+In the meantime I hope you'll enjoy a tall glass of raw water while listening to a guided "meditation" on one of the eight mindfulness applications you installed on your phone yesterday when decided on a whim that you'd like to seek an elevated state of enlightenment.
