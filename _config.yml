@@ -18,6 +18,13 @@ pagination:
  per_page: 10
  sort_reverse: true
  permalink: '/page:num/'
+defaults:
+  -
+    scope:
+      path: 'dnd/_posts'
+    values:
+      hidden: 'true'
+      layout: 'dnd_post'
 # Build settings
 markdown: kramdown
 kramdown:

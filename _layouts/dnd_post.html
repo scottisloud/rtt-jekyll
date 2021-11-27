@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <!-- First line is default line for template which I've commented out. If issue with formatting linked posts, restore this line. Second line includes variables for linkedlist style posts --> 
+    <!-- <h1 class="post-title" itemprop="name headline"><a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a></h1> -->
+    <div class="post-title" itemprop="name headline"><a class="postLink" href="{% if page.link %}{{ page.link }}{% else %}{{ page.url }}{% endif %}">{{ page.title }} {% if page.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></div>
+  <center>
+    <p class="post-meta">
+      <a href="{{site.baseurl}}/dnd/">Back to index</a>
+    </p>
+    
+   </center>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <div class="post-footer">
+    Comments, thoughts or questions about this post? Contact me on Twitter <a href="https://twitter.com/scottisloud" target="_blank">@{{site.twitter_username}}</a> or shoot me an <a href="mailto:{{site.email}}?subject=Comment regarding post '{{page.title}}'">email</a>
+  </div>
+
+</article>

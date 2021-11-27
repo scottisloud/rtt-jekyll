@@ -1,11 +1,7 @@
 ---
-layout: page
-title: Encryption Dungeon
-permalink: /dnd/
-nav: false
-#tagline: Some sales engineers and a professor come together to solve a mystery!
+title: Introduction to Dungeons and Dragons
+
 ---
-# Welcome to the Encryption Dungeon
 
 ## Introduction 
 This page should hopefully provide you with links to all the resources and things you’ll need to play. 
@@ -13,8 +9,8 @@ This page should hopefully provide you with links to all the resources and thing
 ### Action Items
 - Join the game on Roll20 with my [my invite link](https://app.roll20.net/join/10923318/AlBfhg)
 - Read the sections called out below in **Dungeons and Dragons, Basic Rules** 
-    - [PDF version](https://media.wizards.com/2018/dnd/downloads/DnD_BasicRules_2018.pdf) 
-    - [Web Version](https://www.dndbeyond.com/sources/basic-rules)
+	- [PDF version](https://media.wizards.com/2018/dnd/downloads/DnD_BasicRules_2018.pdf) 
+	- [Web Version](https://www.dndbeyond.com/sources/basic-rules)
 - Give some thought to your character
 
 

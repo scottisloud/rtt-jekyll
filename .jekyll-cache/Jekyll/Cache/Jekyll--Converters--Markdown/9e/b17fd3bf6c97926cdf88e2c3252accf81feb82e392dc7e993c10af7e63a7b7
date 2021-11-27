@@ -1,6 +1,41 @@
-I"�,<h1 id="welcome-to-the-encryption-dungeon">Welcome to the Encryption Dungeon</h1>
+I"t2<h1 id="welcome-to-the-encryption-dungeon">Welcome to the Encryption Dungeon</h1>
 
-<h2 id="introduction">Introduction</h2>
+<div class="dnd">
+<!-- Post list which might be nice somewhere else that isn't the home page! -->
+<ul class="post-list">
+    
+      <div class="post postContent">
+          <!-- This is totally optional -->
+          <div class="postDay">
+             
+          </div>
+          <!--the above is optional -->
+          <br />
+          <div class="postTitle">
+              <!-- Provides conditional for link list posts. If variable "link" is present in the post file, post title links to source and inserts an arrow. If no link variable is present, the title links to the post itself -->
+              <a class="postLink" href="/dnd/2021/11/27/the-adventure-begins.html">The Adventure Begins</a>
+          </div>
+          
+          <div class="postExt">
+              
+
+          </div>
+        </div>
+    
+      <div class="post postContent">
+          <!-- This is totally optional -->
+          <div class="postDay">
+             
+          </div>
+          <!--the above is optional -->
+          <br />
+          <div class="postTitle">
+              <!-- Provides conditional for link list posts. If variable "link" is present in the post file, post title links to source and inserts an arrow. If no link variable is present, the title links to the post itself -->
+              <a class="postLink" href="/.">Introduction to Dungeons and Dragons</a>
+          </div>
+          
+          <div class="postExt">
+              <h2 id="introduction">Introduction</h2>
 <p>This page should hopefully provide you with links to all the resources and things you’ll need to play.</p>
 
 <h3 id="action-items">Action Items</h3>
@@ -124,4 +159,11 @@
 
 <h2 id="dnd-beyond">DnD Beyond</h2>
 <p><a href="https://www.dndbeyond.com/">DnD Beyond</a> is an extremely helpful resource. There’s no way around it, we’ll all be looking up rules, items, spells, etc. during the game. I find DnD Beyond to be one of the most comprehensive and easy to use resources for doing just that.</p>
+
+          </div>
+        </div>
+    
+  </ul>
+</div>
+
 :ET
