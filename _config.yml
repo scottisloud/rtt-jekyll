@@ -21,11 +21,17 @@ pagination:
 defaults:
   -
     scope:
+      path: '_posts'
+    values:
+      category: 'blog'
+  -
+    scope:
       path: 'dnd/_posts'
     values:
       hidden: 'true'
       layout: 'dnd_post'
       permalink: '/:categories/:title.html'
+      sitemap: false 
 # Build settings
 markdown: kramdown
 kramdown:
