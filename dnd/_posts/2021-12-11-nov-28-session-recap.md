@@ -1,8 +1,8 @@
 ---
-title: November 28, 2021 Session Recap: The Joy of Extradimensional Spaces
+title: November 28 2021 Session Recap - The Joy of Extradimensional Spaces
 ---
 
-The party arrived and each party member offered up books of interest to the Avowed guarding the gates. Some books were stacked along with other ornate tomes. Others were placed careless on several other piles comprised of rather eclectic mix of things that could barely pass as books. 
+The party arrived at Candlekdeep and each party member offered up books of interest to the Avowed guarding the gates. Some books were stacked along with other ornate tomes. Others were placed careless on several other piles comprised of rather eclectic mix of things that could barely pass as books. 
 
 You were admitted one by one and entered the Court of Air, a large open air courtyard that is actually much closer in size to a rather bustling small town. You spotted a rickshaw-like cart made of heavy wood being pulled by a very exhausted, young avowed. Walking alongside but offering absolutely no help were several other avowed of various races and ages, all wearing the purple robes you are beginning to understand as the uniform of the avowed. The cart itself has the word "Welcome" in various languages carved around an ornate wooden fringe, and the rest of the exterior of the cart is comprised of shelves behind wooden doors. It's like a large, mobile filing cabinet. 
 
