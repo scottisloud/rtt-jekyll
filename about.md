@@ -8,7 +8,8 @@ permalink: /about/
 ![avatar](/img/avatar.jpg){:id: .avatar}
 
 ### Scott Lougheed
-{: style="text-align: center;"}
+
+<!-- {: style="text-align: center;"} -->
 
 #### Currently
 I am a Sales Engineer on the Sales Enablement team at [1Password](https://1password.com). Formerly I was a Customer Onboarding Specialist in Customer Success at 1Password. 
