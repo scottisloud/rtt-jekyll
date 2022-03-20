@@ -4,3 +4,4 @@ _site/
 .DS_Store
 .nova
 .jekyll-cache/
+.jekyll-cache/*
